@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">MaterialApp</string>
+    <string name="hello_world">MaterialApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
+    <string name="mdtp_done_label">Done</string>
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_hours">Select hours</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_minutes">Select minutes</string>
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_year_picker_description">Year list</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_day">Select month and day</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_year">Select year</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="mdtp_item_is_selected"><xliff:g id="item" example="2013">%1$s</xliff:g>selected</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="mdtp_deleted_key"><xliff:g id="key" example="4">%1$s</xliff:g>deleted</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_placeholder" translatable="false">--</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_separator" translatable="false">:</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="title_activity_main">DateTimePicker Example</string>
+    <string name="selected_time">The time you picked will be shown here.</string>
+    <string name="selected_date">The date you picked will be shown here.</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="mode_24_hours">Use 24 hour mode</string>
+    <string name="mode_dark_time">Use dark theme</string>
+    <string name="title_activity_floating_action_bar">FloatingActionBarActivity</string>
+
+    <!-- Material EditText -->
+    <string name="new_account">New Account</string>
+    <string name="discription">Description</string>
+    <string name="title">Title</string>
+    <string name="title_activity_material_edit_text">MaterialEditTextActivity</string>
+    <string name="title_activity_rey_material_view">MaterialView</string>
+
+    
+    <!-- Rey Material View -->
+    
+    <string name="rd_repeat">Repeat</string>
+    <string name="rd_daily">Daily</string>
+    <string name="rd_weekly">Weekly</string>
+    <string name="rd_monthly">Monthly</string>
+    <string name="rd_yearly">Yearly</string>
+    <string name="rd_none">None</string>
+    <string name="rd_every">Every</string>
+    <string name="rd_day">day</string>
+    <string name="rd_days">days</string>
+    <string name="rd_week">week</string>
+    <string name="rd_weeks">weeks</string>
+    <string name="rd_month">month</string>
+    <string name="rd_months">months</string>
+    <string name="rd_year">year</string>
+    <string name="rd_years">years</string>
+    <string name="rd_forever">Forever</string>
+    <string name="rd_until">Until</string>
+    <string name="rd_until_full">Until a date</string>
+    <string name="rd_for">For</string>
+    <string name="rd_for_full">For a number of events</string>
+    <string name="rd_month_same_day">on the same day each month</string>
+    <string name="rd_month_last">on every last %s</string>
+    <string name="rd_month_first">on every first %s</string>
+    <string name="rd_month_second">on every second %s</string>
+    <string name="rd_month_third">on every third %s</string>
+    <string name="rd_month_fourth">on every fourth %s</string>
+    <string name="rd_event">event</string>
+    <string name="rd_events">events</string>
+    
+    <!-- Bottom sheet -->
+     <string name="bs_more">More</string>
+      <string name="share">Share</string>
+    <string name="upload">Upload</string>
+    <string name="copy">Copy</string>
+    <string name="print">Print this page</string>
+    <string name="call">Call</string>
+    <string name="help">Help</string>
+    <string name="bottomsheet">BottomSheet Sample</string>
+</resources>
