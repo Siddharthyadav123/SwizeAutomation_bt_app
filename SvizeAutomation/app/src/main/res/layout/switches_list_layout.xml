@@ -34,24 +34,16 @@
             android:layout_weight="1.6"
             android:gravity="center">
 
-            <com.svizeautomation.app.util.MySwitch
+            <android.support.v7.widget.SwitchCompat
                 android:id="@+id/switchMaterialButton"
-                style="@style/mySwitchStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:checked="false"
                 android:gravity="center"
-                app:backgroundMask="@drawable/smask_background_copy"
-                app:leftBackground="@drawable/sleft_background_copy1"
-                app:pushStyle="true"
-                app:rightBackground="@drawable/sright_background_copy1"
-                app:textOff="ON"
-                app:textOn="OFF"
-                app:textOnThumb="false"
-                app:thumb="@drawable/stoggle_copy1"
-                app:thumbExtraMovement="27dp"
-                app:trackTextPadding="2dp"
-                app:track_x="@drawable/sgroove_copy" />
+                android:theme="@style/MyRadioButton"
+                android:thumb="@drawable/basic_switch_thumb"
+                android:track="@drawable/basic_switch_track" />
         </LinearLayout>
 
     </LinearLayout>

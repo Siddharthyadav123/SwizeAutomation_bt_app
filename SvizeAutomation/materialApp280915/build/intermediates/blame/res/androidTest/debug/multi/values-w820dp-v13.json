@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\bundles\\debug\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "file": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\bundles\\debug\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

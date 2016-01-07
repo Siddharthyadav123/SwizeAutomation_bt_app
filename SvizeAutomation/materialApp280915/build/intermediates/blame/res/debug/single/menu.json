@@ -1,34 +1,34 @@
 [
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\material_edit_text.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\material_edit_text.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\longlist.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\longlist.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\list.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\list.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\floating_action_bar.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\floating_action_bar.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\rey_material_view.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\rey_material_view.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\menu_date_time_picker.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\menu_date_time_picker.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\longlist.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\longlist.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\noicon.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\noicon.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\main.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\rey_material_view.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\rey_material_view.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\noicon.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\noicon.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\menu_date_time_picker.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\menu_date_time_picker.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\list.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\list.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\floating_action_bar.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\floating_action_bar.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\menu\\material_edit_text.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\menu\\material_edit_text.xml"
     }
 ]

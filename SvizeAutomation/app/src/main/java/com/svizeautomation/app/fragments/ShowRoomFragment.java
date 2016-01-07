@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +33,6 @@ import com.svizeautomation.app.model.LocalModel;
 import com.svizeautomation.app.pojo.RoomDo;
 import com.svizeautomation.app.pojo.SwitchDo;
 import com.svizeautomation.app.screens.HomeScreenActivity;
-import com.svizeautomation.app.util.MySwitch;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,7 +54,7 @@ public class ShowRoomFragment extends Fragment {
     private TextView macAddressTextView;
     private LinearLayout switchsContainerBodyLayout;
     private LinearLayout allSwitchContainerLinearLayout;
-    private MySwitch allSwitch;
+    private Switch allSwitch;
     private ProgressBar loadingProgressBar;
 
     private RoomDo currentRoom = null;
@@ -123,7 +123,8 @@ public class ShowRoomFragment extends Fragment {
         macAddressTextView = (TextView) view.findViewById(R.id.macAddressTextView);
         switchsContainerBodyLayout = (LinearLayout) view.findViewById(R.id.switchsContainerBodyLayout);
         allSwitchContainerLinearLayout = (LinearLayout) view.findViewById(R.id.allSwitchContainerLinearLayout);
-        allSwitch = (MySwitch) view.findViewById(R.id.allSwitch);
+        allSwitch = (Switch) view.findViewById(R.id.allSwitch);
+
         btConnectedRippleLayout = (LayoutRipple) view.findViewById(R.id.btConnectedRippleLayout);
         loadingProgressBar = (ProgressBar) view.findViewById(R.id.loadingProgressBar);
     }
@@ -301,7 +302,11 @@ public class ShowRoomFragment extends Fragment {
 
             LinearLayout newSwitchLayout = (LinearLayout) getActivity().getLayoutInflater().inflate(R.layout.switches_list_layout, null);
             TextView switchNameTextView = (TextView) newSwitchLayout.findViewById(R.id.switchName);
-            MySwitch switchMaterialButton = (MySwitch) newSwitchLayout.findViewById(R.id.switchMaterialButton);
+            SwitchCompat switchMaterialButton = (SwitchCompat) newSwitchLayout.findViewById(R.id.switchMaterialButton);
+
+            switchMaterialButton.setThumbResource(R.drawable.basic_switch_thumb);
+            switchMaterialButton.setTrackResource(R.drawable.basic_switch_track);
+
             View separatorView = (View) newSwitchLayout.findViewById(R.id.separatorView);
 
             if (i == roomDo.getSwiches().size() - 1) {
@@ -361,7 +366,7 @@ public class ShowRoomFragment extends Fragment {
         needToSendTellBTAboutBtnchange = false;
         for (int i = 0; i < switchesLinearLayoutList.size(); i++) {
             LinearLayout newSwitchLayout = switchesLinearLayoutList.get(i);
-            MySwitch switchMaterialButton = (MySwitch) newSwitchLayout.findViewById(R.id.switchMaterialButton);
+            SwitchCompat switchMaterialButton = (SwitchCompat) newSwitchLayout.findViewById(R.id.switchMaterialButton);
             if (enable) {
                 switchMaterialButton.setChecked(true);
             } else {

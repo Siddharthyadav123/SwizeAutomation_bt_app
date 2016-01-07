@@ -1,302 +1,302 @@
 [
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spinner.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_spinner.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_button.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_button.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_done_button.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_done_button.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_header_view.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_header_view.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fab.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_fab.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_header_view.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_header_view.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_view_animator.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_view_animator.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_year_label_text_view.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_year_label_text_view.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_custom.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\layout_dialog_custom.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_switches.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_switches.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_selected_date.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_selected_date.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bs_grid_entry.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bs_grid_entry.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\color_selector.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn_dropdown.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_spn_dropdown.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_end.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_end.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_dropdown_mode.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_dropdown_mode.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_mode.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_mode.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_divider.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bs_list_divider.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_spn.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_dropdown_end.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_dropdown_end.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_spn.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_progress.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_progress.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_replace.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_contact_replace.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_picker_dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_time_picker_dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\number_indicator_spinner.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_slider.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_slider.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fab.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_fab.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_button.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_button.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_dropdown_end.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_dropdown_end.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn_dropdown.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_spn_dropdown.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\snackbar.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_view_animator.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_view_animator.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_picker_dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_time_picker_dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_textfield.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_textfield.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_slider.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_slider.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_selected.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_contact_selected.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_selected_date.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_date_picker_selected_date.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_header_label.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_time_header_label.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_progress.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_progress.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_dropdown_mode.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_dropdown_mode.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_end.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_end.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\material_dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\material_dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_drawer.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_drawer.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_replace.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_contact_replace.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\number_indicator_spinner.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\color_selector.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spinner.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_spinner.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_snackbar.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_snackbar.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_selected.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_contact_selected.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\row_drawer.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\row_drawer.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_sheet_dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bottom_sheet_dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_custom.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\layout_dialog_custom.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_done_button.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_done_button.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_recurring.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\dialog_recurring.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_entry.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bs_list_entry.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_textfield.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_textfield.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_entry.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bs_list_entry.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_mode.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\rd_item_mode.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\ui_main.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\ui_main.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_header_label.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_time_header_label.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_sheet_dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bottom_sheet_dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_year_label_text_view.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\mdtp_year_label_text_view.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\material_dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\material_dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bs_grid_entry.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bs_grid_entry.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_snackbar.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_snackbar.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\snackbar.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\ui_main.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\ui_main.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\progress_dialog.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_divider.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\bs_list_divider.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_switches.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\fragment_switches.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\progress_dialog.xml"
     },
     {
-        "merged": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\siddharth\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_recurring.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\layout\\dialog_recurring.xml"
     }
 ]

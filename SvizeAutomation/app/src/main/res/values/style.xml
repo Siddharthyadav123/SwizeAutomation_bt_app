@@ -63,28 +63,8 @@
     </style>
 
 
-    <style name="mySwitchStyle">
-        <item name="track_x">@drawable/switch_track_green</item>
-        <item name="thumb">@drawable/background_fenced</item>
-        <item name="switchTextAppearanceAttrib">@style/mySwitchTextAppearance</item>
-        <item name="textOn">ON</item>
-        <item name="textOff">OFF</item>
-        <item name="pushStyle">false</item>
-        <item name="textOnThumb">true</item>
-        <item name="thumbExtraMovement">0dp</item>
-        <item name="thumbTextPadding">6dp</item>
-        <item name="trackTextPadding">6dp</item>
-        <item name="switchMinWidth_x">30dp</item>
-        <item name="switchMinHeight">10dp</item>
-        <item name="switchPadding">6dp</item>
-    </style>
-
-    <style name="mySwitchTextAppearance">
-        <item name="textColor">#FFeeFFee</item>
-        <item name="textColorHighlight">#FFeeFFee</item>
-        <item name="textColorHint">#FFeeFFee</item>
-        <item name="textColorLink">#FFeeFFee</item>
-        <item name="textSize">16sp</item>
-        <item name="textStyle">normal</item>
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
     </style>
 </resources>
