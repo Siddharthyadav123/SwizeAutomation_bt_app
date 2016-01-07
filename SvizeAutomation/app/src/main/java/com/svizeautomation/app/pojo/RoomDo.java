@@ -16,7 +16,6 @@ public class RoomDo extends RealmObject {
     public static final byte CONNECTOR_TYPE_BLUETOOH = 0;
     public static final byte CONNECTOR_TYPE_MOCK = 1;
 
-    @PrimaryKey
     private int roomId;
     private String name;
     private String btMacAddress;

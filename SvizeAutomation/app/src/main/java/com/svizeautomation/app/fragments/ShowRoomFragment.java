@@ -229,6 +229,7 @@ public class ShowRoomFragment extends Fragment {
         }
 
 
+
         //feeding switches in layout
         feedSwitchesInLayout(currentRoom);
 

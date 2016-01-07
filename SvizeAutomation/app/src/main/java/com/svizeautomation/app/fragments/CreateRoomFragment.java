@@ -229,6 +229,7 @@ public class CreateRoomFragment extends Fragment {
 
     public void createRoom() {
         roomDo = new RoomDo();
+        roomDo.setRoomId(LocalModel.getInstance().getRoomDoArrayList().size());
         roomDo.setName(roomNameEditText.getText().toString().trim().toUpperCase());
         roomDo.setBtConnectorType(btConnectorType);
         roomDo.setBtMacAddress(macAddressEditText.getText().toString().trim().toUpperCase());

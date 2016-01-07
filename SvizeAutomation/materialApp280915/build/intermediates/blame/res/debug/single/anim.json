@@ -1,98 +1,194 @@
 [
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_layout_fade_in.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_layout_fade_in.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale_out.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\anim_scale_out.xml"
     },
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale_out.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\anim_scale_out.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_item_in.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_item_in.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\progress_indeterminate_animation.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale_in.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\anim_scale_in.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\snackbar_hide_animation.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_layout_anim_in.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_layout_anim_in.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
     },
     {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_root_show_amin.xml"
     },
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\snackbar_show_animation.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_root_show_amin.xml"
     },
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_layout_fade_in.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_layout_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_layout_fade_in.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_layout_fade_in.xml"
     },
     {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dock_bottom_exit.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dock_bottom_exit.xml"
     },
     {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\snackbar_show_animation.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale_in.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\anim_scale_in.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\progress_indeterminate_animation.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
+    },
+    {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dock_bottom_enter.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dock_bottom_enter.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale_in.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\anim_scale_in.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\snackbar_show_animation.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dock_bottom_enter.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dock_bottom_enter.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_item_in.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_item_in.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_layout_anim_in.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_layout_anim_in.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale_out.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\anim_scale_out.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\dock_bottom_exit.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\dock_bottom_exit.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_item_in.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_item_in.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\progress_indeterminate_animation.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\anim\\bs_list_layout_anim_in.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\anim\\bs_list_layout_anim_in.xml"
     }
 ]
