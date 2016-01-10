@@ -185,6 +185,7 @@
                 android:background="@color/white"></View>
 
             <TextView
+                android:id="@+id/onHeaderTextview"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -197,11 +198,13 @@
                 android:background="@color/white"></View>
 
             <TextView
+                android:id="@+id/offHeaderTextview"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="OFF input" />
+
 
         </LinearLayout>
 
@@ -219,6 +222,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/switchContainerBodyLayout">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <com.gc.materialdesign.views.CheckBox
+                    android:id="@+id/remoteCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Remote"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="wrap_content"

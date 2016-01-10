@@ -43,10 +43,14 @@ public class EditRoomFragment extends Fragment {
     private LinearLayout switchContainerBodyLayout;
 
     private CheckBox allowAllControlCheckBox;
+    private CheckBox remoteCheckBox;
     private EditText roomNameEditText;
     private EditText macAddressEditText;
     private LayoutRipple searchMacAdressRippleLayout;
     private LayoutRipple saveRoomLayoutRipple;
+
+    private TextView onHeaderTextview;
+    private TextView offHeaderTextview;
 
     private Spinner roomSpinner;
 
@@ -96,11 +100,18 @@ public class EditRoomFragment extends Fragment {
         switchContainerBodyLayout = (LinearLayout) view.findViewById(R.id.switchContainerBodyLayout);
 
         allowAllControlCheckBox = (CheckBox) view.findViewById(R.id.allowAllControlCheckBox);
+        remoteCheckBox = (CheckBox) view.findViewById(R.id.remoteCheckBox);
+
+
         roomNameEditText = (EditText) view.findViewById(R.id.roomNameEditText);
         macAddressEditText = (EditText) view.findViewById(R.id.macAddressEditText);
         searchMacAdressRippleLayout = (LayoutRipple) view.findViewById(R.id.searchMacAdressRippleLayout);
         saveRoomLayoutRipple = (LayoutRipple) view.findViewById(R.id.saveRoomLayoutRipple);
         roomSpinner = (Spinner) view.findViewById(R.id.roomSpinner);
+
+        onHeaderTextview = (TextView) view.findViewById(R.id.onHeaderTextview);
+        offHeaderTextview = (TextView) view.findViewById(R.id.offHeaderTextview);
+
     }
 
     private void setRoomsInSpinnerAdapter() {
@@ -125,7 +136,7 @@ public class EditRoomFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (switchesLinearLayoutList.size() < 9) {
-                    addSwitch();
+                    addSwitch(null);
                 }
             }
         });
@@ -160,6 +171,51 @@ public class EditRoomFragment extends Fragment {
             }
         });
 
+        remoteCheckBox.setOncheckListener(new CheckBox.OnCheckListener() {
+            @Override
+            public void onCheck(CheckBox view, boolean check) {
+                if (check) {
+                    onRemoteSelected();
+                } else {
+                    onRemoteDeSeleted();
+                }
+            }
+        });
+
+    }
+
+    private void onRemoteDeSeleted() {
+        onHeaderTextview.setText("ON Input");
+        offHeaderTextview.setText("OFF Input");
+
+        allowAllControlCheckBox.setEnabled(true);
+
+        plusButtonRippleLayout.setEnabled(true);
+        minusButtonRippleLayout.setEnabled(true);
+
+        switchContainerBodyLayout.removeAllViews();
+        switchesLinearLayoutList.clear();
+
+        addSwitch(null);
+    }
+
+    private void onRemoteSelected() {
+        onHeaderTextview.setText("Touch Input");
+        offHeaderTextview.setText("Release Input");
+
+        allowAllControlCheckBox.setEnabled(false);
+
+        plusButtonRippleLayout.setEnabled(false);
+        minusButtonRippleLayout.setEnabled(false);
+
+          /* Adding 4 layouts */
+        switchContainerBodyLayout.removeAllViews();
+        switchesLinearLayoutList.clear();
+
+        String[] btnTextHint = {"Top button", "Bottom button", "Left button", "Right button"};
+        for (int i = 0; i < 4; i++) {
+            addSwitch(btnTextHint[i]);
+        }
     }
 
 
@@ -188,6 +244,12 @@ public class EditRoomFragment extends Fragment {
             allowAllControlCheckBox.setChecked(false);
         }
 
+        if (currentRoom.getType() == RoomDo.ROOM_TYPE_REMOTE_CONTROLLOER) {
+            remoteCheckBox.setChecked(true);
+        } else {
+            remoteCheckBox.setChecked(false);
+        }
+
 
         for (int i = 0; i < currentRoom.getSwiches().size(); i++) {
             LinearLayout newSwitchLayout = (LinearLayout) getActivity().getLayoutInflater().inflate(R.layout.new_switch_item_layout, null);
@@ -208,10 +270,16 @@ public class EditRoomFragment extends Fragment {
 
     }
 
-    private void addSwitch() {
+    private void addSwitch(String hintText) {
         LinearLayout newSwitchLayout = (LinearLayout) getActivity().getLayoutInflater().inflate(R.layout.new_switch_item_layout, null);
         EditText switchEditText = (EditText) newSwitchLayout.findViewById(R.id.switchEditText);
-        switchEditText.setHint("Switch " + (switchesLinearLayoutList.size() + 1));
+
+        if (hintText != null) {
+            switchEditText.setHint(hintText);
+        } else {
+            switchEditText.setHint("Switch " + (switchesLinearLayoutList.size() + 1));
+        }
+
         switchesLinearLayoutList.add(newSwitchLayout);
         switchContainerBodyLayout.addView(newSwitchLayout);
         switchCounterTextView.setText(switchesLinearLayoutList.size() + "");
@@ -293,6 +361,14 @@ public class EditRoomFragment extends Fragment {
         editedRoom.setBtConnectorType(btConnectorType);
         editedRoom.setBtMacAddress(macAddressEditText.getText().toString().trim().toUpperCase());
         editedRoom.setHaveCommonSwitch(allowAllControlCheckBox.isCheck());
+
+        if (allowAllControlCheckBox.isCheck()) {
+            editedRoom.setType(RoomDo.ROOM_TYPE_REMOTE_CONTROLLOER);
+        } else {
+            editedRoom.setType(RoomDo.ROOM_TYPE_SWITCH_BOARD);
+        }
+
+
         ArrayList<SwitchDo> switchDoList = collectSwitchs();
 
         RealmList<SwitchDo> reamMSwitchs = new RealmList<SwitchDo>();

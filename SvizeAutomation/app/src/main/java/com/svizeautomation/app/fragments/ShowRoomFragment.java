@@ -9,11 +9,14 @@ import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -53,7 +56,6 @@ public class ShowRoomFragment extends Fragment {
     private Spinner roomSpinner;
     private TextView macAddressTextView;
     private LinearLayout switchsContainerBodyLayout;
-    private LinearLayout allSwitchContainerLinearLayout;
     private Switch allSwitch;
     private ProgressBar loadingProgressBar;
 
@@ -65,6 +67,16 @@ public class ShowRoomFragment extends Fragment {
 
     private boolean isConnecting = false;
 
+    private RelativeLayout switchesRelativeLayout;
+    private LinearLayout allSwitchContainerLinearLayout;
+    private LinearLayout remoteLinearLayout;
+
+    private ImageView btnTop;
+    private ImageView btnBottom;
+    private ImageView btnLeft;
+    private ImageView btnRight;
+
+
     public static ShowRoomFragment newInstance() {
         ShowRoomFragment showRoomFragment = new ShowRoomFragment();
         Bundle bundle = new Bundle();
@@ -75,6 +87,8 @@ public class ShowRoomFragment extends Fragment {
     @Override
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+//        view = inflater.inflate(R.layout.remote_layout, container, false);
         isFragmentAttached = true;
         if (LocalModel.getInstance().getRoomDoArrayList().size() == 0) {
             view = inflater.inflate(R.layout.no_room_to_control_layout, container, false);
@@ -111,6 +125,10 @@ public class ShowRoomFragment extends Fragment {
         return view;
     }
 
+    private void checkRemoteOrSwitchBoard() {
+
+    }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
@@ -122,11 +140,32 @@ public class ShowRoomFragment extends Fragment {
         macAddressTextView = (TextView) view.findViewById(R.id.macAddressTextView);
         macAddressTextView = (TextView) view.findViewById(R.id.macAddressTextView);
         switchsContainerBodyLayout = (LinearLayout) view.findViewById(R.id.switchsContainerBodyLayout);
+
         allSwitchContainerLinearLayout = (LinearLayout) view.findViewById(R.id.allSwitchContainerLinearLayout);
+        switchesRelativeLayout = (RelativeLayout) view.findViewById(R.id.switchesRelativeLayout);
+        remoteLinearLayout = (LinearLayout) view.findViewById(R.id.remoteLinearLayout);
+
         allSwitch = (Switch) view.findViewById(R.id.allSwitch);
 
         btConnectedRippleLayout = (LayoutRipple) view.findViewById(R.id.btConnectedRippleLayout);
         loadingProgressBar = (ProgressBar) view.findViewById(R.id.loadingProgressBar);
+
+        btnTop = (ImageView) view.findViewById(R.id.btnTop);
+        btnBottom = (ImageView) view.findViewById(R.id.btnBottom);
+        btnLeft = (ImageView) view.findViewById(R.id.btnLeft);
+        btnRight = (ImageView) view.findViewById(R.id.btnRight);
+    }
+
+    private void showRemoteSwitchLayout() {
+        allSwitchContainerLinearLayout.setVisibility(View.GONE);
+        switchesRelativeLayout.setVisibility(View.GONE);
+        remoteLinearLayout.setVisibility(View.VISIBLE);
+    }
+
+    private void showNormalSwitchLayouts() {
+        allSwitchContainerLinearLayout.setVisibility(View.VISIBLE);
+        switchesRelativeLayout.setVisibility(View.VISIBLE);
+        remoteLinearLayout.setVisibility(View.GONE);
     }
 
     private void setRoomsInSpinnerAdapter() {
@@ -174,6 +213,76 @@ public class ShowRoomFragment extends Fragment {
             }
         });
 
+        btnTop.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View view, MotionEvent event) {
+                if (event.getAction() == android.view.MotionEvent.ACTION_DOWN) {
+                    btnTop.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle_red));
+                    sendMessage(currentRoom.getSwiches().get(0).getInputTextOn());
+
+                    Toast.makeText(getActivity(), "Touch:" + currentRoom.getSwiches().get(0).getInputTextOn(), Toast.LENGTH_SHORT).show();
+
+                } else if (event.getAction() == android.view.MotionEvent.ACTION_UP) {
+                    btnTop.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle));
+                    sendMessage(currentRoom.getSwiches().get(0).getInputTextOff());
+                    Toast.makeText(getActivity(), "Touch Release:" + currentRoom.getSwiches().get(0).getInputTextOff(), Toast.LENGTH_SHORT).show();
+
+                }
+                return true;
+            }
+        });
+
+        btnBottom.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View view, MotionEvent event) {
+                if (event.getAction() == android.view.MotionEvent.ACTION_DOWN) {
+                    btnBottom.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle_red));
+                    sendMessage(currentRoom.getSwiches().get(1).getInputTextOn());
+                    Toast.makeText(getActivity(), "Touch:" + currentRoom.getSwiches().get(1).getInputTextOn(), Toast.LENGTH_SHORT).show();
+
+                } else if (event.getAction() == android.view.MotionEvent.ACTION_UP) {
+                    btnBottom.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle));
+                    sendMessage(currentRoom.getSwiches().get(1).getInputTextOn());
+                    Toast.makeText(getActivity(), "Touch Release:" + currentRoom.getSwiches().get(1).getInputTextOff(), Toast.LENGTH_SHORT).show();
+
+                }
+                return true;
+            }
+        });
+
+        btnLeft.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View view, MotionEvent event) {
+                if (event.getAction() == android.view.MotionEvent.ACTION_DOWN) {
+                    btnLeft.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle_red));
+                    sendMessage(currentRoom.getSwiches().get(2).getInputTextOn());
+                    Toast.makeText(getActivity(), "Touch:" + currentRoom.getSwiches().get(2).getInputTextOn(), Toast.LENGTH_SHORT).show();
+
+                } else if (event.getAction() == android.view.MotionEvent.ACTION_UP) {
+                    btnLeft.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle));
+                    sendMessage(currentRoom.getSwiches().get(2).getInputTextOn());
+                    Toast.makeText(getActivity(), "Touch Release:" + currentRoom.getSwiches().get(2).getInputTextOff(), Toast.LENGTH_SHORT).show();
+
+                }
+                return true;
+            }
+        });
+
+        btnRight.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View view, MotionEvent event) {
+                if (event.getAction() == android.view.MotionEvent.ACTION_DOWN) {
+                    btnRight.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle_red));
+                    sendMessage(currentRoom.getSwiches().get(3).getInputTextOn());
+                    Toast.makeText(getActivity(), "Touch:" + currentRoom.getSwiches().get(3).getInputTextOn(), Toast.LENGTH_SHORT).show();
+
+                } else if (event.getAction() == android.view.MotionEvent.ACTION_UP) {
+                    btnRight.setBackgroundDrawable(getActivity().getResources().getDrawable(R.drawable.triangle));
+                    sendMessage(currentRoom.getSwiches().get(3).getInputTextOn());
+                    Toast.makeText(getActivity(), "Touch Release:" + currentRoom.getSwiches().get(3).getInputTextOff(), Toast.LENGTH_SHORT).show();
+
+                }
+                return true;
+            }
+        });
+
+
     }
 
     private void onBtConnectedClick() {
@@ -210,11 +319,18 @@ public class ShowRoomFragment extends Fragment {
         currentRoom = LocalModel.getInstance().getRoomDoArrayList().get(roomSpinner.getSelectedItemPosition());
         macAddressTextView.setText(currentRoom.getBtMacAddress());
 
-        if (currentRoom.isHaveCommonSwitch()) {
+        if (currentRoom.getType() == RoomDo.ROOM_TYPE_REMOTE_CONTROLLOER) {
+            showRemoteSwitchLayout();
+        } else {
+            showNormalSwitchLayouts();
+        }
+
+        if (currentRoom.isHaveCommonSwitch() && currentRoom.getType() == RoomDo.ROOM_TYPE_SWITCH_BOARD) {
             allSwitchContainerLinearLayout.setVisibility(View.VISIBLE);
         } else {
             allSwitchContainerLinearLayout.setVisibility(View.GONE);
         }
+
 
         if (currentRoom.getCommonSwitchState() == SwitchDo.SWITCH_ON) {
             allSwitch.setChecked(true);
@@ -227,7 +343,6 @@ public class ShowRoomFragment extends Fragment {
         } else {
             btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
         }
-
 
 
         //feeding switches in layout

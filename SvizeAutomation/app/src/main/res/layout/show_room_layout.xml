@@ -85,6 +85,14 @@
         android:visibility="gone" />
 
 
+    <include
+        layout="@layout/remote_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loadingProgressBar"
+        android:layout_marginTop="10dp" />
+
+
     <RelativeLayout
         android:id="@+id/switchesRelativeLayout"
         android:layout_width="match_parent"
@@ -94,7 +102,8 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:background="@color/grey"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="gone">
 
         <LinearLayout
             android:id="@+id/switchContainerHeaderlayout"
@@ -145,7 +154,8 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
         android:background="@color/grey"
-        android:padding="5dp">
+        android:padding="5dp"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/switchName"
