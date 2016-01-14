@@ -35,7 +35,6 @@ import com.svizeautomation.app.adapters.RoomSpinnerAdatper;
 import com.svizeautomation.app.model.LocalModel;
 import com.svizeautomation.app.pojo.RoomDo;
 import com.svizeautomation.app.pojo.SwitchDo;
-import com.svizeautomation.app.screens.HomeScreenActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -95,7 +94,7 @@ public class ShowRoomFragment extends Fragment {
             view.findViewById(R.id.createRoomBtn).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_CREATE_ROOM, true, 0);
+//                    ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_CREATE_ROOM, true, 0);
                 }
             });
         } else {

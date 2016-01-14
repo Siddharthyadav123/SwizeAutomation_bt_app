@@ -16,7 +16,6 @@ import android.widget.Toast;
 import com.gc.materialdesign.views.CheckBox;
 import com.gc.materialdesign.views.LayoutRipple;
 import com.rey.material.widget.Spinner;
-import com.rey.material.widget.Switch;
 import com.svizeautomation.app.DeviceListActivity;
 import com.svizeautomation.app.R;
 import com.svizeautomation.app.model.LocalModel;
@@ -73,7 +72,7 @@ public class EditRoomFragment extends Fragment {
             view.findViewById(R.id.createRoomBtn).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_CREATE_ROOM, true, 0);
+//                    ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_CREATE_ROOM, true, 0);
 
                 }
             });
@@ -378,7 +377,7 @@ public class EditRoomFragment extends Fragment {
         editedRoom.setSwiches(reamMSwitchs);
         LocalModel.getInstance().editRoom(editedRoom);
         Toast.makeText(getActivity(), editedRoom.getName() + " Edited Successfully.", Toast.LENGTH_LONG).show();
-        ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_SHOW_ROOM, true, roomIndex);
+//        ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_SHOW_ROOM, true, roomIndex);
     }
 
     private void startDeviceListActivity() {

@@ -6,7 +6,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.gc.materialdesign.views.LayoutRipple;
 import com.svizeautomation.app.R;
 import com.svizeautomation.app.screens.HomeScreenActivity;
 
@@ -16,7 +15,7 @@ import com.svizeautomation.app.screens.HomeScreenActivity;
 public class NevigationDrawerListAdapter extends BaseAdapter {
 
     private Activity activity;
-    private String[] nevigationStringArray = {"Control Room", "Create Room", "Edit Room", "About"};
+    private String[] nevigationStringArray = {"Create Room", "Edit Room", "About"};
 
     public NevigationDrawerListAdapter(Activity activity) {
         this.activity = activity;
@@ -45,10 +44,7 @@ public class NevigationDrawerListAdapter extends BaseAdapter {
         TextView itemNameTextView = (TextView) convertView.findViewById(R.id.itemNameTextView);
         itemNameTextView.setText(nevigationStringArray[position]);
 
-        LayoutRipple itemLayoutRipple = (LayoutRipple) convertView.findViewById(R.id.itemLayoutRipple);
-        itemLayoutRipple.setRippleSpeed(45);
-
-        itemLayoutRipple.setOnClickListener(new View.OnClickListener() {
+        itemNameTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ((HomeScreenActivity) activity).onItemClick(position);
