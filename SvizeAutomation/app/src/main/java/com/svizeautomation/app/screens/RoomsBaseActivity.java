@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -47,6 +48,20 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
 
     protected void clearMembers() {
         switchesLinearLayoutList.clear();
+    }
+
+    public void setToolBar(String title) {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+        getSupportActionBar().setTitle(title);
     }
 
     protected void initViews() {
@@ -275,5 +290,10 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
                 }
                 break;
         }
+    }
+
+    protected void launchPwdActivity() {
+        Intent i = new Intent(this, PasswordActivity.class);
+        startActivity(i);
     }
 }

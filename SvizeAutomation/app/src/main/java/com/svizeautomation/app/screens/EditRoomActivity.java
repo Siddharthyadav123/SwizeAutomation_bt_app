@@ -35,6 +35,7 @@ public class EditRoomActivity extends RoomsBaseActivity {
         if (LocalModel.getInstance().getRoomDoArrayList().size() == 0) {
             View view = getLayoutInflater().inflate(R.layout.no_room_to_control_layout, null);
             setContentView(view);
+            setToolBar("Edit Room");
             view.findViewById(R.id.createRoomBtn).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -45,6 +46,7 @@ public class EditRoomActivity extends RoomsBaseActivity {
             });
         } else {
             setContentView(R.layout.edit_room_fragment_layout);
+            setToolBar("Edit Room");
             initViews();
             registerEvents();
             clearMembers();

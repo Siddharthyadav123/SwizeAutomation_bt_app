@@ -1,394 +1,394 @@
 [
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_uncheck.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_uncheck.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\selector_list.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\selector_list.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_progress.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_progress.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\blue_background.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\blue_background.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_rectangle.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_rectangle.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\list_selector.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_rb.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_rb.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color_dark.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color_dark.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_selected.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_selected.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_uncheck.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_uncheck.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_selected.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_selected.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_down.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_down.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_dark_selector.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_dark_selector.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_tpi.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_tpi.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\transparent_backgrouns.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\transparent_backgrouns.xml"
     },
     {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_dark_selector.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_dark_selector.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_tpi.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_tpi.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_selector.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_selector.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_wv_text.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_wv_text.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button.9.png",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button.9.png"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\blue_background.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\blue_background.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_label.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_label.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_switch_ball_uncheck.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_switch_ball_uncheck.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_switch_ball_uncheck.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_switch_ball_uncheck.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_background.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_background.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_selector.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_selector.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_transparent.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_transparent.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_check.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_check.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\list_selector.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_down.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_down.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_float.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_float.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\fab_label_background.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\fab_label_background.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color_dark.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color_dark.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\selector_list.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\selector_list.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_rectangle.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_rectangle.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_rb.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_rb.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\text_cursor_cyan.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\text_cursor_cyan.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_background.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_background.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_progress.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_progress.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\text_cursor_cyan.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\text_cursor_cyan.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\fab_label_background.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\fab_label_background.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_transparent.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_transparent.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_right.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_right.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button.9.png",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button.9.png"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\transparent_backgrouns.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\transparent_backgrouns.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_wv_text.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_wv_text.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_check.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_check.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_right.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_right.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_label.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_label.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox.xml",
-        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_float.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_float.xml"
     },
     {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\transparent_backgrouns.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\transparent_backgrouns.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button.9.png",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button.9.png"
+    },
+    {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_selector.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_selector.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_uncheck.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\blue_background.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\blue_background.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color_dark.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color_dark.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_rb.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_rb.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_selected.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_rectangle.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_rectangle.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_background.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_background.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_rectangle.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_rectangle.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\text_cursor_cyan.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\text_cursor_cyan.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_wv_text.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_wv_text.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_uncheck.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_label.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_label.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color_dark.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color_dark.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_transparent.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_transparent.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\blue_background.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\blue_background.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_right.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_check.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_check.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_checkbox_check.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_checkbox_check.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_wv_text.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_wv_text.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_progress.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button.9.png",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button.9.png"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_transparent.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_transparent.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\fab_label_background.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\fab_label_background.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_label.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_label.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_button_float.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\selector_list.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\selector_list.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_selected.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_dark_selector.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_dark_selector.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_down.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_down.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_down.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_down.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_material_button_background.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_material_button_background.xml"
+    },
+    {
         "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_tpi.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_tpi.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\mdtp_done_background_color.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\mdtp_done_background_color.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\selector_list.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\selector_list.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\fab_label_background.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\fab_label_background.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\text_cursor_cyan.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\text_cursor_cyan.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\background_progress.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_tpi.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_tpi.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_dark_selector.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_dark_selector.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\color_rb.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\color_rb.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\bs_list_selector.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\bs_list_selector.xml"
+    },
+    {
+        "merged": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_right.xml",
+        "source": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\src\\main\\res\\drawable\\shadow_right.xml"
     }
 ]

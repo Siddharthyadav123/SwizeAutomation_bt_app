@@ -25,6 +25,18 @@
 
 
         <activity
+            android:name=".screens.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UserDialog"
+            android:windowSoftInputMode="stateHidden"></activity>
+
+        <activity
+            android:name=".screens.PasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UserDialog"
+            android:windowSoftInputMode="stateHidden"></activity>
+
+        <activity
             android:name=".screens.CreateRoomActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppcompactTheme"

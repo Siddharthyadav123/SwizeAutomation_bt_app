@@ -2,6 +2,7 @@ package com.svizeautomation.app.screens;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -24,6 +25,7 @@ public class CreateRoomActivity extends RoomsBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_room_fragment_layout);
+        setToolBar("Create Room");
         initViews();
         registerEvents();
         clearMembers();
@@ -37,9 +39,10 @@ public class CreateRoomActivity extends RoomsBaseActivity {
 
     @Override
     public void onSaveRoomBtnClick() {
-        if (isValidate()) {
-            createRoom();
-        }
+        launchPwdActivity();
+//        if (isValidate()) {
+//            createRoom();
+//        }
     }
 
 

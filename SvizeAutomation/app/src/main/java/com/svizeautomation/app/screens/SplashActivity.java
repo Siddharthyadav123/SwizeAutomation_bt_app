@@ -73,7 +73,6 @@ public class SplashActivity extends Activity {
 
     private void initViews() {
         logoImageview = (ImageView) findViewById(R.id.logoImageview);
-        loadingText = (TextView) findViewById(R.id.loadingText);
     }
 
     private void animateLogoImageview() {

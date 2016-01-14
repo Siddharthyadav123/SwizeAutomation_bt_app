@@ -60,6 +60,7 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     public static final int CREATE_ROOM = 0;
     public static final int EDIT_ROOM = 1;
+    public static final int ABOUT_SCREN = 2;
 
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle drawerToggle;
@@ -85,7 +86,6 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     private RoomDo currentRoom = null;
     private ArrayList<LinearLayout> switchesLinearLayoutList = new ArrayList<LinearLayout>();
-    private boolean isFragmentAttached = false;
     private RoomSpinnerAdatper roomSpinnerAdatper;
 
     private boolean isConnecting = false;
@@ -266,6 +266,7 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     private View getBlankView() {
         View view = getLayoutInflater().inflate(R.layout.no_room_to_control_layout, null);
+        view.findViewById(R.id.toolbar).setVisibility(View.GONE);
         view.findViewById(R.id.createRoomBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -311,10 +312,18 @@ public class HomeScreenActivity extends AppCompatActivity {
                     case EDIT_ROOM:
                         launchEditRoomActivity();
                         break;
+                    case ABOUT_SCREN:
+                        launchAboutScreen();
+                        break;
                 }
             }
         }, 350);
 
+    }
+
+    private void launchAboutScreen() {
+        Intent i = new Intent(this, AboutActivity.class);
+        startActivity(i);
     }
 
     private void launchCreateRoomActivity() {
@@ -613,50 +622,40 @@ public class HomeScreenActivity extends AppCompatActivity {
                 case MessageHandler.MSG_CONNECTED:
                     connected = true;
                     isConnecting = false;
-                    if (isFragmentAttached) {
-                        roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.green));
-                        System.out.println(">>sid connected");
-                        loadingProgressBar.setVisibility(View.GONE);
-                    }
+                    roomSpinner.setEnabled(true);
+                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.green));
+                    System.out.println(">>sid connected");
+                    loadingProgressBar.setVisibility(View.GONE);
                     break;
                 case MessageHandler.MSG_CONNECTING:
                     connected = false;
                     isConnecting = true;
-                    if (isFragmentAttached) {
-                        roomSpinner.setEnabled(false);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
-                    }
+                    roomSpinner.setEnabled(false);
+                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
                     System.out.println(">>sid connected MSG_CONNECTING");
                     break;
                 case MessageHandler.MSG_NOT_CONNECTED:
                     connected = false;
                     isConnecting = false;
-                    if (isFragmentAttached) {
-                        roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
-                    }
+                    roomSpinner.setEnabled(true);
+                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
                     System.out.println(">>sid connected MSG_NOT_CONNECTED");
                     break;
                 case MessageHandler.MSG_CONNECTION_FAILED:
                     connected = false;
                     isConnecting = false;
-                    if (isFragmentAttached) {
-                        roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
-                        loadingProgressBar.setVisibility(View.GONE);
-                        Toast.makeText(HomeScreenActivity.this, "Bluetooth Connection Failed, Try again.", Toast.LENGTH_LONG).show();
-                        System.out.println(">>sid connected MSG_CONNECTION_FAILED");
-                    }
+                    roomSpinner.setEnabled(true);
+                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                    loadingProgressBar.setVisibility(View.GONE);
+                    Toast.makeText(HomeScreenActivity.this, "Bluetooth Connection Failed, Try again.", Toast.LENGTH_LONG).show();
+                    System.out.println(">>sid connected MSG_CONNECTION_FAILED");
 
                     break;
                 case MessageHandler.MSG_CONNECTION_LOST:
                     connected = false;
                     isConnecting = false;
-                    if (isFragmentAttached) {
-                        roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
-                    }
+                    roomSpinner.setEnabled(true);
+                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
                     System.out.println(">>sid connected MSG_CONNECTION_LOST");
                     break;
 
