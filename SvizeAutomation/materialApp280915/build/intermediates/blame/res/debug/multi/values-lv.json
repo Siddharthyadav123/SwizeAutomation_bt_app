@@ -1,352 +1,5 @@
 [
     {
-        "outputFile": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\values-lv\\values-lv.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 119,
-                    "endOffset": 170
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 284,
-                        "endColumn": 119,
-                        "endOffset": 399
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 175,
-                    "endColumn": 107,
-                    "endOffset": 278
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 405,
-                        "endColumn": 107,
-                        "endOffset": 508
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 283,
-                    "endColumn": 122,
-                    "endOffset": 401
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 514,
-                        "endColumn": 122,
-                        "endOffset": 632
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 406,
-                    "endColumn": 107,
-                    "endOffset": 509
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 638,
-                        "endColumn": 107,
-                        "endOffset": 741
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 514,
-                    "endColumn": 108,
-                    "endOffset": 618
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 747,
-                        "endColumn": 108,
-                        "endOffset": 851
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 623,
-                    "endColumn": 85,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 857,
-                        "endColumn": 85,
-                        "endOffset": 938
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 103,
-                    "endOffset": 808
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 944,
-                        "endColumn": 103,
-                        "endOffset": 1043
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 813,
-                    "endColumn": 121,
-                    "endOffset": 930
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1049,
-                        "endColumn": 121,
-                        "endOffset": 1166
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 935,
-                    "endColumn": 84,
-                    "endOffset": 1015
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1172,
-                        "endColumn": 84,
-                        "endOffset": 1252
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1020,
-                    "endColumn": 108,
-                    "endOffset": 1124
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1258,
-                        "endColumn": 108,
-                        "endOffset": 1362
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1129,
-                    "endColumn": 111,
-                    "endOffset": 1236
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1368,
-                        "endColumn": 111,
-                        "endOffset": 1475
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1241,
-                    "endColumn": 98,
-                    "endOffset": 1335
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1481,
-                        "endColumn": 98,
-                        "endOffset": 1575
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1340,
-                    "endColumn": 110,
-                    "endOffset": 1446
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1581,
-                        "endColumn": 110,
-                        "endOffset": 1687
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1451,
-                    "endColumn": 108,
-                    "endOffset": 1555
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1693,
-                        "endColumn": 108,
-                        "endOffset": 1797
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1560,
-                    "endColumn": 104,
-                    "endOffset": 1660
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1803,
-                        "endColumn": 104,
-                        "endOffset": 1903
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1665,
-                    "endColumn": 118,
-                    "endOffset": 1779
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1909,
-                        "endColumn": 118,
-                        "endOffset": 2023
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1784,
-                    "endColumn": 98,
-                    "endOffset": 1878
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2029,
-                        "endColumn": 98,
-                        "endOffset": 2123
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1883,
-                    "endColumn": 100,
-                    "endOffset": 1979
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2129,
-                        "endColumn": 100,
-                        "endOffset": 2225
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\values-lv\\values-lv.xml",
         "map": [
             {
@@ -688,6 +341,353 @@
                         "startOffset": 2108,
                         "endColumn": 100,
                         "endOffset": 2204
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\values-lv\\values-lv.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 119,
+                    "endOffset": 170
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 119,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 175,
+                    "endColumn": 107,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 107,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 283,
+                    "endColumn": 122,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 514,
+                        "endColumn": 122,
+                        "endOffset": 632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 107,
+                    "endOffset": 509
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 107,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 514,
+                    "endColumn": 108,
+                    "endOffset": 618
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 747,
+                        "endColumn": 108,
+                        "endOffset": 851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 623,
+                    "endColumn": 85,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 857,
+                        "endColumn": 85,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 103,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 944,
+                        "endColumn": 103,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 813,
+                    "endColumn": 121,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1049,
+                        "endColumn": 121,
+                        "endOffset": 1166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endColumn": 84,
+                    "endOffset": 1015
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 84,
+                        "endOffset": 1252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1020,
+                    "endColumn": 108,
+                    "endOffset": 1124
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endColumn": 108,
+                        "endOffset": 1362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1129,
+                    "endColumn": 111,
+                    "endOffset": 1236
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1368,
+                        "endColumn": 111,
+                        "endOffset": 1475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1241,
+                    "endColumn": 98,
+                    "endOffset": 1335
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1481,
+                        "endColumn": 98,
+                        "endOffset": 1575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1340,
+                    "endColumn": 110,
+                    "endOffset": 1446
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1581,
+                        "endColumn": 110,
+                        "endOffset": 1687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1451,
+                    "endColumn": 108,
+                    "endOffset": 1555
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 108,
+                        "endOffset": 1797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1560,
+                    "endColumn": 104,
+                    "endOffset": 1660
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1803,
+                        "endColumn": 104,
+                        "endOffset": 1903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1665,
+                    "endColumn": 118,
+                    "endOffset": 1779
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1909,
+                        "endColumn": 118,
+                        "endOffset": 2023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1784,
+                    "endColumn": 98,
+                    "endOffset": 1878
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2029,
+                        "endColumn": 98,
+                        "endOffset": 2123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1883,
+                    "endColumn": 100,
+                    "endOffset": 1979
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-lv\\values-lv.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2129,
+                        "endColumn": 100,
+                        "endOffset": 2225
                     }
                 }
             }

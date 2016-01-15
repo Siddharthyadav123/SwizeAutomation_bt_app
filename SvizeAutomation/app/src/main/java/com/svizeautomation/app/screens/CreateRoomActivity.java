@@ -1,8 +1,8 @@
 package com.svizeautomation.app.screens;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -24,6 +24,7 @@ public class CreateRoomActivity extends RoomsBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LocalModel.getInstance().setCurrentActivity(this);
         setContentView(R.layout.create_room_fragment_layout);
         setToolBar("Create Room");
         initViews();
@@ -39,10 +40,16 @@ public class CreateRoomActivity extends RoomsBaseActivity {
 
     @Override
     public void onSaveRoomBtnClick() {
-        launchPwdActivity();
-//        if (isValidate()) {
-//            createRoom();
-//        }
+        if (isValidate(true)) {
+            launchPwdActivity();
+        }
+    }
+
+    @Override
+    public void pwdDailogResult(boolean isCorrect) {
+        if (isCorrect) {
+            createRoom();
+        }
     }
 
 
@@ -64,6 +71,8 @@ public class CreateRoomActivity extends RoomsBaseActivity {
         }
         return switchDoList;
     }
+
+    boolean isRoomCreated = false;
 
     public void createRoom() {
         roomDo = new RoomDo();
@@ -87,7 +96,20 @@ public class CreateRoomActivity extends RoomsBaseActivity {
         roomDo.setSwiches(reamMSwitchs);
         LocalModel.getInstance().addRoom(roomDo);
         Toast.makeText(this, roomDo.getName() + " Created Successfully.", Toast.LENGTH_LONG).show();
-//        ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_SHOW_ROOM, true, LocalModel.getInstance().getRoomDoArrayList().size() - 1);
+        isRoomCreated = true;
+        finish();
+    }
+
+
+    @Override
+    public void finish() {
+        LocalModel.getInstance().hideKeyboard(this);
+        if (isRoomCreated) {
+            setResult(Activity.RESULT_OK);
+        } else {
+            setResult(Activity.RESULT_CANCELED);
+        }
+        super.finish();
     }
 
     @Override

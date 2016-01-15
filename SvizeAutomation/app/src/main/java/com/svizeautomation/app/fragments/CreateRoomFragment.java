@@ -90,6 +90,8 @@ public class CreateRoomFragment extends Fragment {
         searchMacAdressRippleLayout = (LayoutRipple) view.findViewById(R.id.searchMacAdressRippleLayout);
         saveRoomLayoutRipple = (LayoutRipple) view.findViewById(R.id.saveRoomLayoutRipple);
 
+        saveRoomLayoutRipple.setRippleSpeed(5);
+
         onHeaderTextview = (TextView) view.findViewById(R.id.onHeaderTextview);
         offHeaderTextview = (TextView) view.findViewById(R.id.offHeaderTextview);
 
@@ -288,7 +290,7 @@ public class CreateRoomFragment extends Fragment {
 
     public void createRoom() {
         roomDo = new RoomDo();
-        roomDo.setRoomId(LocalModel.getInstance().getRoomDoArrayList().size());
+//        roomDo.setRoomId(LocalModel.getInstance().getRoomDoArrayList().size());
         roomDo.setName(roomNameEditText.getText().toString().trim().toUpperCase());
         roomDo.setBtConnectorType(btConnectorType);
         roomDo.setBtMacAddress(macAddressEditText.getText().toString().trim().toUpperCase());

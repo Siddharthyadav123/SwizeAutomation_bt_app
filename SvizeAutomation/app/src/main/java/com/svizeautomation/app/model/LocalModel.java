@@ -1,10 +1,11 @@
 package com.svizeautomation.app.model;
 
 import android.app.Activity;
+import android.content.Context;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 
-import com.svizeautomation.app.application.BluetoothViewerFullApplication;
 import com.svizeautomation.app.pojo.RoomDo;
-import com.svizeautomation.app.pojo.SwitchDo;
 
 import java.util.ArrayList;
 
@@ -80,6 +81,15 @@ public class LocalModel {
         list.get(roomDo.getRoomId()).setCommonSwitchState(state);
         myRealm.commitTransaction();
         roomDoArrayList = getRoomDoArrayList();
+    }
+
+    public void hideKeyboard(Activity activity) {
+        // Check if no view has focus:
+        View view = activity.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
     }
 
 

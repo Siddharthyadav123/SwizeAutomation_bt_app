@@ -377,6 +377,7 @@ public class EditRoomFragment extends Fragment {
         editedRoom.setSwiches(reamMSwitchs);
         LocalModel.getInstance().editRoom(editedRoom);
         Toast.makeText(getActivity(), editedRoom.getName() + " Edited Successfully.", Toast.LENGTH_LONG).show();
+
 //        ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_SHOW_ROOM, true, roomIndex);
     }
 

@@ -2,7 +2,6 @@ package com.svizeautomation.app.pojo;
 
 import io.realm.RealmList;
 import io.realm.RealmObject;
-import io.realm.RealmResults;
 import io.realm.annotations.PrimaryKey;
 
 /**
@@ -16,7 +15,9 @@ public class RoomDo extends RealmObject {
     public static final byte CONNECTOR_TYPE_BLUETOOH = 0;
     public static final byte CONNECTOR_TYPE_MOCK = 1;
 
+    @PrimaryKey
     private int roomId;
+    
     private String name;
     private String btMacAddress;
     private int btConnectorType = CONNECTOR_TYPE_BLUETOOH;

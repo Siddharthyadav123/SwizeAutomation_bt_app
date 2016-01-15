@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.gc.materialdesign.views.CheckBox;
 import com.gc.materialdesign.views.LayoutRipple;
 import com.svizeautomation.app.DeviceListActivity;
 import com.svizeautomation.app.R;
+import com.svizeautomation.app.constants.Constants;
 import com.svizeautomation.app.model.LocalModel;
 import com.svizeautomation.app.pojo.RoomDo;
 
@@ -78,6 +78,8 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
         macAddressEditText = (EditText) findViewById(R.id.macAddressEditText);
         searchMacAdressRippleLayout = (LayoutRipple) findViewById(R.id.searchMacAdressRippleLayout);
         saveRoomLayoutRipple = (LayoutRipple) findViewById(R.id.saveRoomLayoutRipple);
+
+        saveRoomLayoutRipple.setRippleSpeed(100);
 
         onHeaderTextview = (TextView) findViewById(R.id.onHeaderTextview);
         offHeaderTextview = (TextView) findViewById(R.id.offHeaderTextview);
@@ -167,7 +169,7 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
         switchContainerBodyLayout.removeAllViews();
         switchesLinearLayoutList.clear();
 
-        String[] btnTextHint = {"Top button", "Bottom button", "Left button", "Right button"};
+        String[] btnTextHint = {"VOL+", "VOL-", "CH+", "CH-"};
         for (int i = 0; i < 4; i++) {
             addSwitch(btnTextHint[i]);
         }
@@ -180,7 +182,7 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
         EditText inputPinOFFEditText = (EditText) newSwitchLayout.findViewById(R.id.inputPinOFFEditText);
 
         if (hintText != null) {
-            switchEditText.setHint(hintText);
+            switchEditText.setText(hintText);
         } else {
             switchEditText.setHint("Switch " + (switchesLinearLayoutList.size() + 1));
         }
@@ -196,7 +198,7 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
         switchCounterTextView.setText(switchesLinearLayoutList.size() + "");
     }
 
-    protected boolean isValidate() {
+    protected boolean isValidate(boolean isCreate) {
 
         if (roomNameEditText.getText().toString().trim().length() == 0) {
             roomNameEditText.requestFocus();
@@ -236,27 +238,39 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
 
         }
 
-        ArrayList<RoomDo> roomList = LocalModel.getInstance().getRoomDoArrayList();
-        for (int i = 0; i < roomList.size(); i++) {
+        if (isCreate) {
+            ArrayList<RoomDo> roomList = LocalModel.getInstance().getRoomDoArrayList();
+            for (int i = 0; i < roomList.size(); i++) {
 
-            if (roomList.get(i).getName().equalsIgnoreCase(roomNameEditText.getText().toString().trim())) {
-                roomNameEditText.setError("A room Already Present with this Name, Please change the Name.");
-                roomNameEditText.requestFocus();
-                return false;
+                if (roomList.get(i).getName().equalsIgnoreCase(roomNameEditText.getText().toString().trim())) {
+                    roomNameEditText.setError("A room Already Present with this Name, Please change the Name.");
+                    roomNameEditText.requestFocus();
+                    return false;
+                }
+
+//                if (roomList.get(i).getBtMacAddress().equalsIgnoreCase(macAddressEditText.getText().toString().trim())) {
+//                    Toast.makeText(this, "This MAC address Already Assign To the Another Room, Please Re-verify.", Toast.LENGTH_LONG).show();
+//                    return false;
+//                }
+
             }
-
-            if (roomList.get(i).getBtMacAddress().equalsIgnoreCase(macAddressEditText.getText().toString().trim())) {
-                Toast.makeText(this, "This MAC address Already Assign To the Another Room, Please Re-verify.", Toast.LENGTH_LONG).show();
-                return false;
-            }
-
         }
+
 
         return true;
     }
 
+    public abstract void pwdDailogResult(boolean isCorrect);
+
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
+            case Constants.REQUEST_CODE_CREATE_ROOM_PWD:
+                if (resultCode == Activity.RESULT_OK) {
+                    pwdDailogResult(true);
+                } else {
+                    pwdDailogResult(false);
+                }
+                break;
             case HomeScreenActivity.REQUEST_CONNECT_DEVICE:
                 if (resultCode == Activity.RESULT_OK) {
 
@@ -294,6 +308,6 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
 
     protected void launchPwdActivity() {
         Intent i = new Intent(this, PasswordActivity.class);
-        startActivity(i);
+        startActivityForResult(i, Constants.REQUEST_CODE_CREATE_ROOM_PWD);
     }
 }

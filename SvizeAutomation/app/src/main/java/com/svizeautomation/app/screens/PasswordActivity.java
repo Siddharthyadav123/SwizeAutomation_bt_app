@@ -7,7 +7,6 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.svizeautomation.app.R;
 
@@ -51,12 +50,15 @@ public class PasswordActivity extends Activity {
         });
     }
 
+    boolean correctPwd = false;
+
     private void registerEvents() {
         loginBtnTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (pwdEditText.getText().toString().trim().equals(pwd)) {
-                    finish();
+                    correctPwd = true;
+                    onBackPressed();
                 } else {
                     pwdEditText.setError("Incorrect Password, Please enter correct one.");
                 }
@@ -64,6 +66,22 @@ public class PasswordActivity extends Activity {
             }
         });
     }
-    
 
+
+    @Override
+    public void onBackPressed() {
+        if (correctPwd)
+            setResult(Activity.RESULT_OK);
+        else
+            setResult(Activity.RESULT_CANCELED);
+
+        super.onBackPressed();
+        System.out.println(">>sid >>onBackPressed");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        System.out.println(">>sid >>onDestroy");
+    }
 }

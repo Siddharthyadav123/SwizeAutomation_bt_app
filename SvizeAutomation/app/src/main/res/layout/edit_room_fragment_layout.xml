@@ -15,299 +15,311 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize" />
 
-    <TextView
-        android:id="@+id/roomHeaderLabelTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:text="Edit Room/Swtich"
-        android:textColor="@color/black"
-        android:textSize="20dp" />
-
-    <com.rey.material.widget.Spinner
-        android:id="@+id/roomSpinner"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/roomHeaderLabelTextView"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/grey"
-        android:gravity="center"
-        android:padding="8dp"
-        android:textSize="18dp"
-        android:textStyle="bold"></com.rey.material.widget.Spinner>
-
-
-    <EditText
-        android:id="@+id/roomNameEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/roomSpinner"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
-        android:hint="Enter Room Name" />
-
-    <RelativeLayout
-        android:id="@+id/macContainer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/roomNameEditText"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/macAddressEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/searchMacAdressRippleLayout"
-            android:layout_alignTop="@+id/searchMacAdressRippleLayout"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/searchMacAdressRippleLayout"
-            android:editable="false"
-            android:enabled="false"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:hint="Search MAC address" />
-
-        <com.gc.materialdesign.views.LayoutRipple
-            android:id="@+id/searchMacAdressRippleLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/action_search_g" />
-
-        </com.gc.materialdesign.views.LayoutRipple>
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:id="@+id/switchButnContainer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/macContainer"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <com.gc.materialdesign.views.LayoutRipple
-            android:id="@+id/minusButtonRippleLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:padding="5dp">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_centerInParent="true"
-                android:background="@drawable/red_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:text="-"
-                android:textColor="@color/white"
-                android:textSize="20dp" />
-        </com.gc.materialdesign.views.LayoutRipple>
-
-        <TextView
-            android:id="@+id/switchCounterTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/plusSwitch"
-            android:background="@color/dark_gray"
-            android:inputType="number"
-            android:maxLength="1"
-            android:paddingBottom="5dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingTop="5dp"
-            android:text="1"
-            android:textColor="@color/black" />
-
-
-        <com.gc.materialdesign.views.LayoutRipple
-            android:id="@+id/plusButtonRippleLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:padding="5dp">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/red_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:text="+"
-                android:textColor="@color/white"
-                android:textSize="20dp" />
-
-        </com.gc.materialdesign.views.LayoutRipple>
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/labelSelectNumberTextview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/switchButnContainer"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="5dp"
-        android:text="select number of swiche"
-        android:textColor="@color/dark_gray"
-        android:textSize="10dp" />
-
-    <RelativeLayout
-        android:id="@+id/switchesRelativeLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/labelSelectNumberTextview"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/grey"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:id="@+id/switchContainerHeaderlayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/dark_gray"
-            android:padding="5dp">
-
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:gravity="center"
-                android:text="SWITCH NAME" />
-
-            <View
-                android:layout_width="1dp"
-                android:layout_height="match_parent"
-                android:background="@color/white"></View>
-
-            <TextView
-                android:id="@+id/onHeaderTextview"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="ON input" />
-
-            <View
-                android:layout_width="1dp"
-                android:layout_height="match_parent"
-                android:background="@color/white"></View>
-
-            <TextView
-                android:id="@+id/offHeaderTextview"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="OFF input" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:id="@+id/switchContainerBodyLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/switchContainerHeaderlayout"
-            android:orientation="vertical"
-            android:padding="5dp"></LinearLayout>
+        android:layout_below="@+id/toolbar">
 
         <RelativeLayout
-            android:id="@+id/allowAllCheckboxContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/switchContainerBodyLayout">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:gravity="center"
-                android:padding="2dp">
-
-                <com.gc.materialdesign.views.CheckBox
-                    android:id="@+id/remoteCheckBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:text="Remote"
-                    android:textSize="10dp" />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:gravity="center"
-                android:padding="2dp">
-
-                <com.gc.materialdesign.views.CheckBox
-                    android:id="@+id/allowAllControlCheckBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:text="Allow Common Switch"
-                    android:textSize="10dp" />
-            </LinearLayout>
-        </RelativeLayout>
-
-        <com.gc.materialdesign.views.LayoutRipple
-            android:id="@+id/saveRoomLayoutRipple"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/allowAllCheckboxContainer"
-            android:layout_marginBottom="10dp"
-            android:background="@color/sky_blue"
-            android:gravity="center">
+            android:gravity="center|top"
+            android:orientation="vertical">
 
             <TextView
+                android:id="@+id/roomHeaderLabelTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Save Room" />
-        </com.gc.materialdesign.views.LayoutRipple>
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Edit Room/Swtich"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <com.rey.material.widget.Spinner
+                android:id="@+id/roomSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/roomHeaderLabelTextView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="18dp"
+                android:textStyle="bold"></com.rey.material.widget.Spinner>
 
 
-    </RelativeLayout>
+            <EditText
+                android:id="@+id/roomNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/roomSpinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Room Name" />
+
+            <RelativeLayout
+                android:id="@+id/macContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/roomNameEditText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/macAddressEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/searchMacAdressRippleLayout"
+                    android:layout_alignTop="@+id/searchMacAdressRippleLayout"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/searchMacAdressRippleLayout"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Search MAC address" />
+
+                <com.gc.materialdesign.views.LayoutRipple
+                    android:id="@+id/searchMacAdressRippleLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/action_search_g" />
+
+                </com.gc.materialdesign.views.LayoutRipple>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/switchButnContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/macContainer"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.gc.materialdesign.views.LayoutRipple
+                    android:id="@+id/minusButtonRippleLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/red_circle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="-"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                </com.gc.materialdesign.views.LayoutRipple>
+
+                <TextView
+                    android:id="@+id/switchCounterTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/plusSwitch"
+                    android:background="@color/dark_gray"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="1"
+                    android:textColor="@color/black" />
+
+
+                <com.gc.materialdesign.views.LayoutRipple
+                    android:id="@+id/plusButtonRippleLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/red_circle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="+"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                </com.gc.materialdesign.views.LayoutRipple>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/labelSelectNumberTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/switchButnContainer"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:text="select number of swiche"
+                android:textColor="@color/dark_gray"
+                android:textSize="10dp" />
+
+            <RelativeLayout
+                android:id="@+id/switchesRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelSelectNumberTextview"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/switchContainerHeaderlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dark_gray"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="SWITCH NAME" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"></View>
+
+                    <TextView
+                        android:id="@+id/onHeaderTextview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ON input" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"></View>
+
+                    <TextView
+                        android:id="@+id/offHeaderTextview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="OFF input" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/switchContainerBodyLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/switchContainerHeaderlayout"
+                    android:orientation="vertical"
+                    android:padding="5dp"></LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/allowAllCheckboxContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/switchContainerBodyLayout">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:padding="2dp">
+
+                        <com.gc.materialdesign.views.CheckBox
+                            android:id="@+id/remoteCheckBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:text="Remote"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:padding="2dp">
+
+                        <com.gc.materialdesign.views.CheckBox
+                            android:id="@+id/allowAllControlCheckBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:text="Allow Common Switch"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <com.gc.materialdesign.views.LayoutRipple
+                    android:id="@+id/saveRoomLayoutRipple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/allowAllCheckboxContainer"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/sky_blue"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Save Room" />
+                </com.gc.materialdesign.views.LayoutRipple>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

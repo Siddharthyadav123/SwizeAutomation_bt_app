@@ -1,5 +1,6 @@
 package com.svizeautomation.app.screens;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,35 +25,20 @@ import io.realm.RealmList;
  */
 public class EditRoomActivity extends RoomsBaseActivity {
     private RoomDo currentRoom = null;
-    private int roomIndex = 0;
-
     private Spinner roomSpinner;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (LocalModel.getInstance().getRoomDoArrayList().size() == 0) {
-            View view = getLayoutInflater().inflate(R.layout.no_room_to_control_layout, null);
-            setContentView(view);
-            setToolBar("Edit Room");
-            view.findViewById(R.id.createRoomBtn).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    // create screen... take from stack instead launching new one
-//                    ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_CREATE_ROOM, true, 0);
-
-                }
-            });
-        } else {
-            setContentView(R.layout.edit_room_fragment_layout);
-            setToolBar("Edit Room");
-            initViews();
-            registerEvents();
-            clearMembers();
-            setRoomsInSpinnerAdapter();
-            addSwitchsAndRoomInfoAsPerSelectedSpinner(0);
-        }
+        LocalModel.getInstance().setCurrentActivity(this);
+        setContentView(R.layout.edit_room_fragment_layout);
+        setToolBar("Edit Room");
+        initViews();
+        registerEvents();
+        clearMembers();
+        setRoomsInSpinnerAdapter();
+        addSwitchsAndRoomInfoAsPerSelectedSpinner(0);
     }
 
 
@@ -80,7 +66,6 @@ public class EditRoomActivity extends RoomsBaseActivity {
 
     public void registerEvents() {
         super.registerEvents();
-
         roomSpinner.setOnItemSelectedListener(new Spinner.OnItemSelectedListener() {
             @Override
             public void onItemSelected(Spinner parent, View view, int position, long id) {
@@ -92,14 +77,18 @@ public class EditRoomActivity extends RoomsBaseActivity {
 
     @Override
     public void onSaveRoomBtnClick() {
-        if (isValidate()) {
-            editRoom();
+        if (isValidate(false)) {
+            launchPwdActivity();
         }
+    }
+
+    @Override
+    public void pwdDailogResult(boolean isCorrect) {
+        editRoom();
     }
 
     private void addSwitchsAndRoomInfoAsPerSelectedSpinner(int roomIndex) {
 
-        this.roomIndex = roomIndex;
         switchContainerBodyLayout.removeAllViews();
         switchesLinearLayoutList.clear();
 
@@ -109,7 +98,7 @@ public class EditRoomActivity extends RoomsBaseActivity {
         macAddressEditText.setText(currentRoom.getBtMacAddress());
 
 
-        if (currentRoom.getCommonSwitchState() == SwitchDo.SWITCH_ON) {
+        if (currentRoom.isHaveCommonSwitch()) {
             allowAllControlCheckBox.setChecked(true);
         } else {
             allowAllControlCheckBox.setChecked(false);
@@ -150,34 +139,33 @@ public class EditRoomActivity extends RoomsBaseActivity {
             EditText inputPinONEditText = (EditText) swichLayout.findViewById(R.id.inputPinONEditText);
             EditText inputPinOFFEditText = (EditText) swichLayout.findViewById(R.id.inputPinOFFEditText);
 
-
             SwitchDo switchDo = new SwitchDo();
             switchDo.setName(switchEditText.getText().toString().trim().toUpperCase());
             switchDo.setInputTextOn(inputPinONEditText.getText().toString().trim());
             switchDo.setInputTextOff(inputPinOFFEditText.getText().toString().trim());
-
             switchDo.setState(SwitchDo.SWITCH_OFF);
             switchDoList.add(switchDo);
         }
         return switchDoList;
     }
 
+    boolean isRoomCreated = false;
+
     public void editRoom() {
         RoomDo editedRoom = new RoomDo();
+        editedRoom.setRoomId(currentRoom.getRoomId());
         editedRoom.setName(roomNameEditText.getText().toString().trim().toUpperCase());
         editedRoom.setBtConnectorType(btConnectorType);
         editedRoom.setBtMacAddress(macAddressEditText.getText().toString().trim().toUpperCase());
         editedRoom.setHaveCommonSwitch(allowAllControlCheckBox.isCheck());
 
-        if (allowAllControlCheckBox.isCheck()) {
+        if (remoteCheckBox.isCheck()) {
             editedRoom.setType(RoomDo.ROOM_TYPE_REMOTE_CONTROLLOER);
         } else {
             editedRoom.setType(RoomDo.ROOM_TYPE_SWITCH_BOARD);
         }
 
-
         ArrayList<SwitchDo> switchDoList = collectSwitchs();
-
         RealmList<SwitchDo> reamMSwitchs = new RealmList<SwitchDo>();
         reamMSwitchs.addAll(switchDoList);
 
@@ -185,9 +173,19 @@ public class EditRoomActivity extends RoomsBaseActivity {
         editedRoom.setSwiches(reamMSwitchs);
         LocalModel.getInstance().editRoom(editedRoom);
         Toast.makeText(this, editedRoom.getName() + " Edited Successfully.", Toast.LENGTH_LONG).show();
+        isRoomCreated = true;
+        finish();
+    }
 
-        //set result.. as the newly edited room
-//        ((HomeScreenActivity) getActivity()).showFragment(HomeScreenActivity.FRAGMENT_SHOW_ROOM, true, roomIndex);
+    @Override
+    public void finish() {
+        LocalModel.getInstance().hideKeyboard(this);
+        if (isRoomCreated) {
+            setResult(Activity.RESULT_OK);
+        } else {
+            setResult(Activity.RESULT_CANCELED);
+        }
+        super.finish();
     }
 
     @Override

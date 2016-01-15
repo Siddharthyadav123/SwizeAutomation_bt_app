@@ -17,7 +17,6 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -39,6 +38,7 @@ import com.svizeautomation.app.NullDeviceConnector;
 import com.svizeautomation.app.R;
 import com.svizeautomation.app.adapters.NevigationDrawerListAdapter;
 import com.svizeautomation.app.adapters.RoomSpinnerAdatper;
+import com.svizeautomation.app.constants.Constants;
 import com.svizeautomation.app.model.LocalModel;
 import com.svizeautomation.app.pojo.RoomDo;
 import com.svizeautomation.app.pojo.SwitchDo;
@@ -50,8 +50,6 @@ import java.util.ArrayList;
  */
 public class HomeScreenActivity extends AppCompatActivity {
 
-    public final int REQUEST_CODE_CREATE_ROOM = 1000;
-    public final int REQUEST_CODE_EDIT_ROOM = 1001;
 
     // Intent request codes
     public static final int REQUEST_CONNECT_DEVICE = 1;
@@ -68,7 +66,7 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     private ListView drawerListView;
     private NevigationDrawerListAdapter nevigationDrawerListAdapter;
-    private FrameLayout fragmentContainerFrameLayout;
+    private LinearLayout bodyLinearLayout;
 
     /**
      * show room members
@@ -112,7 +110,8 @@ public class HomeScreenActivity extends AppCompatActivity {
     }
 
     private void setBodyView(View view) {
-        fragmentContainerFrameLayout.addView(view);
+        bodyLinearLayout.removeAllViews();
+        bodyLinearLayout.addView(view);
     }
 
     private void createShowRoomViews() {
@@ -120,12 +119,17 @@ public class HomeScreenActivity extends AppCompatActivity {
         if (LocalModel.getInstance().getRoomDoArrayList().size() == 0) {
             setBodyView(getBlankView());
         } else {
-            View view = getLayoutInflater().inflate(R.layout.show_room_layout, null);
-            setBodyView(view);
-            initViewsOfShowRoom();
-            registerEventsOfShowRoom();
-            setRoomsInSpinnerAdapterOfShowRoom();
+            makeShowRoomView();
         }
+    }
+
+
+    private void makeShowRoomView() {
+        View view = getLayoutInflater().inflate(R.layout.show_room_layout, null);
+        setBodyView(view);
+        initViewsOfShowRoom();
+        registerEventsOfShowRoom();
+        setRoomsInSpinnerAdapterOfShowRoom();
     }
 
     private void initViewsOfShowRoom() {
@@ -283,6 +287,15 @@ public class HomeScreenActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
     }
 
+    private void refreshRooms() {
+        LocalModel.getInstance().hideKeyboard(this);
+        if (roomSpinnerAdatper == null) {
+            makeShowRoomView();
+        } else {
+            roomSpinnerAdatper.refreshAdatper();
+            setInfoOnUIAndConnectToBtMAC(false);
+        }
+    }
 
     @Override
     public void onBackPressed() {
@@ -293,7 +306,7 @@ public class HomeScreenActivity extends AppCompatActivity {
     private void initViews() {
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         drawerListView = (ListView) findViewById(R.id.drawerListView);
-        fragmentContainerFrameLayout = (FrameLayout) findViewById(R.id.fragmentContainerFrameLayout);
+        bodyLinearLayout = (LinearLayout) findViewById(R.id.bodyLinearLayout);
 
         nevigationDrawerListAdapter = new NevigationDrawerListAdapter(this);
         drawerListView.setAdapter(nevigationDrawerListAdapter);
@@ -310,7 +323,11 @@ public class HomeScreenActivity extends AppCompatActivity {
                         launchCreateRoomActivity();
                         break;
                     case EDIT_ROOM:
-                        launchEditRoomActivity();
+                        if (LocalModel.getInstance().getRoomDoArrayList().size() > 0) {
+                            launchEditRoomActivity();
+                        } else {
+                            Toast.makeText(HomeScreenActivity.this, "No Room Found to Edit, Please select Create option.", Toast.LENGTH_SHORT).show();
+                        }
                         break;
                     case ABOUT_SCREN:
                         launchAboutScreen();
@@ -328,12 +345,12 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     private void launchCreateRoomActivity() {
         Intent i = new Intent(this, CreateRoomActivity.class);
-        startActivityForResult(i, REQUEST_CODE_CREATE_ROOM);
+        startActivityForResult(i, Constants.REQUEST_CODE_CREATE_ROOM);
     }
 
     private void launchEditRoomActivity() {
         Intent i = new Intent(this, EditRoomActivity.class);
-        startActivityForResult(i, REQUEST_CODE_EDIT_ROOM);
+        startActivityForResult(i, Constants.REQUEST_CODE_EDIT_ROOM);
     }
 
 
@@ -479,14 +496,14 @@ public class HomeScreenActivity extends AppCompatActivity {
                     Toast.makeText(HomeScreenActivity.this, "Please allow Bluetooth connection.", Toast.LENGTH_LONG).show();
                 }
                 break;
-            case REQUEST_CODE_CREATE_ROOM:
+            case Constants.REQUEST_CODE_CREATE_ROOM:
                 if (resultCode == Activity.RESULT_OK) {
-
+                    refreshRooms();
                 }
                 break;
-            case REQUEST_CODE_EDIT_ROOM:
+            case Constants.REQUEST_CODE_EDIT_ROOM:
                 if (resultCode == Activity.RESULT_OK) {
-
+                    refreshRooms();
                 }
                 break;
         }

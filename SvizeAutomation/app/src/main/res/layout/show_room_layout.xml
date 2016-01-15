@@ -25,13 +25,31 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/roomHeaderLabelTextView"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/deleteRoomRippleLayout"
         android:background="@color/grey"
         android:gravity="center"
         android:padding="8dp"
         android:textSize="18dp"
         android:textStyle="bold"></com.rey.material.widget.Spinner>
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/deleteRoomRippleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/roomSpinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/roomSpinner"
+        android:layout_below="@+id/roomHeaderLabelTextView"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_delete_icon" />
+    </com.gc.materialdesign.views.LayoutRipple>
 
 
     <RelativeLayout
@@ -48,10 +66,10 @@
             android:id="@+id/macAddressTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/searchMacAdressRippleLayout"
-            android:layout_alignTop="@+id/searchMacAdressRippleLayout"
+            android:layout_alignBottom="@+id/btConnectedRippleLayout"
+            android:layout_alignTop="@+id/btConnectedRippleLayout"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/searchMacAdressRippleLayout"
+            android:layout_toLeftOf="@+id/btConnectedRippleLayout"
             android:background="@color/grey"
             android:gravity="center"
             android:padding="8dp"
