@@ -50,7 +50,7 @@ public class ShowRoomFragment extends Fragment {
      */
     private DeviceConnector mDeviceConnector = new NullDeviceConnector();
     private boolean connected;
-    private LayoutRipple btConnectedRippleLayout;
+    private ImageView btConnectedImageView;
 
 
     private Spinner roomSpinner;
@@ -152,7 +152,7 @@ public class ShowRoomFragment extends Fragment {
 
         allSwitch = (Switch) view.findViewById(R.id.allSwitch);
 
-        btConnectedRippleLayout = (LayoutRipple) view.findViewById(R.id.btConnectedRippleLayout);
+        btConnectedImageView = (ImageView) view.findViewById(R.id.btConnectedImageView);
         loadingProgressBar = (ProgressBar) view.findViewById(R.id.loadingProgressBar);
 
         btnTop = (ImageView) view.findViewById(R.id.btnTop);
@@ -211,7 +211,7 @@ public class ShowRoomFragment extends Fragment {
             }
         });
 
-        btConnectedRippleLayout.setOnClickListener(new View.OnClickListener() {
+        btConnectedImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBtConnectedClick();
@@ -344,9 +344,9 @@ public class ShowRoomFragment extends Fragment {
         }
 
         if (connected) {
-            btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.green));
+            btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.green));
         } else {
-            btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+            btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
         }
 
 
@@ -518,7 +518,7 @@ public class ShowRoomFragment extends Fragment {
                     isConnecting = false;
                     if (isFragmentAttached) {
                         roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.green));
+                        btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.green));
                         System.out.println(">>sid connected");
                         loadingProgressBar.setVisibility(View.GONE);
                     }
@@ -528,7 +528,7 @@ public class ShowRoomFragment extends Fragment {
                     isConnecting = true;
                     if (isFragmentAttached) {
                         roomSpinner.setEnabled(false);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                        btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     }
                     System.out.println(">>sid connected MSG_CONNECTING");
                     break;
@@ -537,7 +537,7 @@ public class ShowRoomFragment extends Fragment {
                     isConnecting = false;
                     if (isFragmentAttached) {
                         roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                        btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     }
                     System.out.println(">>sid connected MSG_NOT_CONNECTED");
                     break;
@@ -546,7 +546,7 @@ public class ShowRoomFragment extends Fragment {
                     isConnecting = false;
                     if (isFragmentAttached) {
                         roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                        btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                         loadingProgressBar.setVisibility(View.GONE);
                         Toast.makeText(getActivity(), "Bluetooth Connection Failed, Try again.", Toast.LENGTH_LONG).show();
                         System.out.println(">>sid connected MSG_CONNECTION_FAILED");
@@ -558,7 +558,7 @@ public class ShowRoomFragment extends Fragment {
                     isConnecting = false;
                     if (isFragmentAttached) {
                         roomSpinner.setEnabled(true);
-                        btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                        btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     }
                     System.out.println(">>sid connected MSG_CONNECTION_LOST");
                     break;

@@ -1,10 +1,13 @@
 package com.svizeautomation.app.model;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
+import com.svizeautomation.app.listeners.DialogCallback;
 import com.svizeautomation.app.pojo.RoomDo;
 
 import java.util.ArrayList;
@@ -65,6 +68,19 @@ public class LocalModel {
         roomDoArrayList = getRoomDoArrayList();
     }
 
+    public void deleteRoom(int index) {
+        Realm myRealm = Realm.getInstance(getCurrentActivity());
+        myRealm.beginTransaction();
+        RealmResults<RoomDo> list = myRealm.where(RoomDo.class).findAll();
+        list.get(index).removeFromRealm();
+        //resetting room id
+        for (int i = 0; i < list.size(); i++) {
+            list.get(i).setRoomId(i);
+        }
+        myRealm.commitTransaction();
+        roomDoArrayList = getRoomDoArrayList();
+    }
+
     public void editSwitchState(RoomDo roomDo, int pos, int state) {
         Realm myRealm = Realm.getInstance(getCurrentActivity());
         myRealm.beginTransaction();
@@ -78,7 +94,10 @@ public class LocalModel {
         Realm myRealm = Realm.getInstance(getCurrentActivity());
         myRealm.beginTransaction();
         RealmResults<RoomDo> list = myRealm.where(RoomDo.class).findAll();
-        list.get(roomDo.getRoomId()).setCommonSwitchState(state);
+
+        if (list.size() > roomDo.getRoomId())
+            list.get(roomDo.getRoomId()).setCommonSwitchState(state);
+
         myRealm.commitTransaction();
         roomDoArrayList = getRoomDoArrayList();
     }
@@ -90,6 +109,40 @@ public class LocalModel {
             InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
+    }
+
+
+    public void showDiaog(Context context, final DialogCallback dialogCallback, String title, String body) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(
+                context);
+        builder.setCancelable(true);
+        if (body != null)
+            builder.setMessage(body);
+
+        if (title != null)
+            builder.setTitle(title);
+
+        builder.setInverseBackgroundForced(true);
+        builder.setPositiveButton("Yes",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog,
+                                        int which) {
+                        dialogCallback.onYesBtnClick(null);
+                        dialog.dismiss();
+                    }
+                });
+        builder.setNegativeButton("No",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog,
+                                        int which) {
+                        dialogCallback.onNoBtnClick(null);
+                        dialog.dismiss();
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 
 

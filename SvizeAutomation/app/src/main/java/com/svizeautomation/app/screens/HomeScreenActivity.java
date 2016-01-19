@@ -39,6 +39,7 @@ import com.svizeautomation.app.R;
 import com.svizeautomation.app.adapters.NevigationDrawerListAdapter;
 import com.svizeautomation.app.adapters.RoomSpinnerAdatper;
 import com.svizeautomation.app.constants.Constants;
+import com.svizeautomation.app.listeners.DialogCallback;
 import com.svizeautomation.app.model.LocalModel;
 import com.svizeautomation.app.pojo.RoomDo;
 import com.svizeautomation.app.pojo.SwitchDo;
@@ -73,7 +74,7 @@ public class HomeScreenActivity extends AppCompatActivity {
      */
     private DeviceConnector mDeviceConnector = new NullDeviceConnector();
     private boolean connected;
-    private LayoutRipple btConnectedRippleLayout;
+    private ImageView btConnectedImageView;
 
 
     private Spinner roomSpinner;
@@ -96,6 +97,8 @@ public class HomeScreenActivity extends AppCompatActivity {
     private ImageView btnBottom;
     private ImageView btnLeft;
     private ImageView btnRight;
+
+    private ImageView deleteImageView;
 
 
     @Override
@@ -144,13 +147,15 @@ public class HomeScreenActivity extends AppCompatActivity {
 
         allSwitch = (Switch) findViewById(R.id.allSwitch);
 
-        btConnectedRippleLayout = (LayoutRipple) findViewById(R.id.btConnectedRippleLayout);
+        btConnectedImageView = (ImageView) findViewById(R.id.btConnectedImageView);
         loadingProgressBar = (ProgressBar) findViewById(R.id.loadingProgressBar);
 
         btnTop = (ImageView) findViewById(R.id.btnTop);
         btnBottom = (ImageView) findViewById(R.id.btnBottom);
         btnLeft = (ImageView) findViewById(R.id.btnLeft);
         btnRight = (ImageView) findViewById(R.id.btnRight);
+
+        deleteImageView = (ImageView) findViewById(R.id.deleteImageView);
 
     }
 
@@ -168,9 +173,17 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     private void registerEventsOfShowRoom() {
 
+        deleteImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onDeleteButtonClick();
+            }
+        });
+
         allSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
                 onAllSwitchCheckedChanged(isChecked);
             }
         });
@@ -183,7 +196,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             }
         });
 
-        btConnectedRippleLayout.setOnClickListener(new View.OnClickListener() {
+        btConnectedImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBtConnectedClick();
@@ -262,6 +275,26 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     }
 
+
+    private void onDeleteButtonClick() {
+//        LocalModel.getInstance().showDiaog(this,dialogCallback,"Are You sure ","");
+        Intent i = new Intent(this, PasswordActivity.class);
+        startActivityForResult(i, Constants.REQUEST_CODE_DELETE_ROOM_PWD);
+
+    }
+
+    DialogCallback dialogCallback = new DialogCallback() {
+        @Override
+        public void onYesBtnClick(Object extras) {
+
+        }
+
+        @Override
+        public void onNoBtnClick(Object extras) {
+
+        }
+    };
+
     private void setRoomsInSpinnerAdapterOfShowRoom() {
         roomSpinnerAdatper = new RoomSpinnerAdatper(this, android.R.layout.simple_spinner_item);
         roomSpinner.setAdapter(roomSpinnerAdatper);
@@ -289,7 +322,11 @@ public class HomeScreenActivity extends AppCompatActivity {
 
     private void refreshRooms() {
         LocalModel.getInstance().hideKeyboard(this);
-        if (roomSpinnerAdatper == null) {
+
+        if (LocalModel.getInstance().getRoomDoArrayList().size() == 0) {
+            roomSpinnerAdatper = null;
+            setBodyView(getBlankView());
+        } else if (roomSpinnerAdatper == null) {
             makeShowRoomView();
         } else {
             roomSpinnerAdatper.refreshAdatper();
@@ -402,6 +439,10 @@ public class HomeScreenActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    private void disconnectBtAndRemoveCallback() {
+
+    }
+
 
     private void onBtConnectedClick() {
         if (isConnecting) {
@@ -409,13 +450,16 @@ public class HomeScreenActivity extends AppCompatActivity {
             return;
         }
 
-
         if (connected) {
-            Toast.makeText(HomeScreenActivity.this, "Already Connected", Toast.LENGTH_LONG).show();
-        } else {
+            //disconnect also
+            if (mDeviceConnector != null)
+                mDeviceConnector.disconnect();
 
+            Toast.makeText(HomeScreenActivity.this, "Disconnected.", Toast.LENGTH_LONG).show();
+        } else {
             connectBlueToothMAC();
         }
+
     }
 
     private void onAllSwitchCheckedChanged(boolean checked) {
@@ -457,9 +501,9 @@ public class HomeScreenActivity extends AppCompatActivity {
         }
 
         if (connected) {
-            btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.green));
+            btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.green));
         } else {
-            btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+            btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
         }
 
 
@@ -488,6 +532,7 @@ public class HomeScreenActivity extends AppCompatActivity {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
+        LocalModel.getInstance().hideKeyboard(this);
         switch (requestCode) {
             case BluetoothViewer.REQUEST_ENABLE_BT:
                 if (resultCode == Activity.RESULT_OK) {
@@ -503,6 +548,20 @@ public class HomeScreenActivity extends AppCompatActivity {
                 break;
             case Constants.REQUEST_CODE_EDIT_ROOM:
                 if (resultCode == Activity.RESULT_OK) {
+                    refreshRooms();
+                }
+                break;
+            case Constants.REQUEST_CODE_DELETE_ROOM_PWD:
+                if (resultCode == Activity.RESULT_OK) {
+
+                    //delete room
+                    LocalModel.getInstance().deleteRoom(roomSpinner.getSelectedItemPosition());
+
+                    //disconnect also
+                    if (mDeviceConnector != null)
+                        mDeviceConnector.disconnect();
+
+                    //refresh rooms
                     refreshRooms();
                 }
                 break;
@@ -640,7 +699,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                     connected = true;
                     isConnecting = false;
                     roomSpinner.setEnabled(true);
-                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.green));
+                    btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.green));
                     System.out.println(">>sid connected");
                     loadingProgressBar.setVisibility(View.GONE);
                     break;
@@ -648,21 +707,21 @@ public class HomeScreenActivity extends AppCompatActivity {
                     connected = false;
                     isConnecting = true;
                     roomSpinner.setEnabled(false);
-                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                    btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     System.out.println(">>sid connected MSG_CONNECTING");
                     break;
                 case MessageHandler.MSG_NOT_CONNECTED:
                     connected = false;
                     isConnecting = false;
                     roomSpinner.setEnabled(true);
-                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                    btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     System.out.println(">>sid connected MSG_NOT_CONNECTED");
                     break;
                 case MessageHandler.MSG_CONNECTION_FAILED:
                     connected = false;
                     isConnecting = false;
                     roomSpinner.setEnabled(true);
-                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                    btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     loadingProgressBar.setVisibility(View.GONE);
                     Toast.makeText(HomeScreenActivity.this, "Bluetooth Connection Failed, Try again.", Toast.LENGTH_LONG).show();
                     System.out.println(">>sid connected MSG_CONNECTION_FAILED");
@@ -672,7 +731,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                     connected = false;
                     isConnecting = false;
                     roomSpinner.setEnabled(true);
-                    btConnectedRippleLayout.setBackgroundColor(getResources().getColor(R.color.redd));
+                    btConnectedImageView.setBackgroundColor(getResources().getColor(R.color.redd));
                     System.out.println(">>sid connected MSG_CONNECTION_LOST");
                     break;
 

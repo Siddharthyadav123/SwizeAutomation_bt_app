@@ -1,352 +1,5 @@
 [
     {
-        "outputFile": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\values-mn-rMN\\values-mn-rMN.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 112,
-                    "endOffset": 163
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 288,
-                        "endColumn": 112,
-                        "endOffset": 396
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 168,
-                    "endColumn": 107,
-                    "endOffset": 271
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 402,
-                        "endColumn": 107,
-                        "endOffset": 505
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 276,
-                    "endColumn": 122,
-                    "endOffset": 394
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 511,
-                        "endColumn": 122,
-                        "endOffset": 629
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 399,
-                    "endColumn": 99,
-                    "endOffset": 494
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 635,
-                        "endColumn": 99,
-                        "endOffset": 730
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 499,
-                    "endColumn": 112,
-                    "endOffset": 607
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 736,
-                        "endColumn": 112,
-                        "endOffset": 844
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 612,
-                    "endColumn": 86,
-                    "endOffset": 694
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 850,
-                        "endColumn": 86,
-                        "endOffset": 932
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 699,
-                    "endColumn": 105,
-                    "endOffset": 800
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 938,
-                        "endColumn": 105,
-                        "endOffset": 1039
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 805,
-                    "endColumn": 111,
-                    "endOffset": 912
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1045,
-                        "endColumn": 111,
-                        "endOffset": 1152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 917,
-                    "endColumn": 81,
-                    "endOffset": 994
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1158,
-                        "endColumn": 81,
-                        "endOffset": 1235
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 999,
-                    "endColumn": 108,
-                    "endOffset": 1103
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1241,
-                        "endColumn": 108,
-                        "endOffset": 1345
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1108,
-                    "endColumn": 103,
-                    "endOffset": 1207
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1351,
-                        "endColumn": 103,
-                        "endOffset": 1450
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1212,
-                    "endColumn": 96,
-                    "endOffset": 1304
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1456,
-                        "endColumn": 96,
-                        "endOffset": 1548
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1309,
-                    "endColumn": 107,
-                    "endOffset": 1412
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1554,
-                        "endColumn": 107,
-                        "endOffset": 1657
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1417,
-                    "endColumn": 100,
-                    "endOffset": 1513
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1663,
-                        "endColumn": 100,
-                        "endOffset": 1759
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1518,
-                    "endColumn": 102,
-                    "endOffset": 1616
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1765,
-                        "endColumn": 102,
-                        "endOffset": 1863
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1621,
-                    "endColumn": 121,
-                    "endOffset": 1738
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1869,
-                        "endColumn": 121,
-                        "endOffset": 1986
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1743,
-                    "endColumn": 96,
-                    "endOffset": 1835
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1992,
-                        "endColumn": 96,
-                        "endOffset": 2084
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1840,
-                    "endColumn": 100,
-                    "endOffset": 1936
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2090,
-                        "endColumn": 100,
-                        "endOffset": 2186
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\values-mn-rMN\\values-mn-rMN.xml",
         "map": [
             {
@@ -688,6 +341,353 @@
                         "startOffset": 2069,
                         "endColumn": 100,
                         "endOffset": 2165
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\debug\\values-mn-rMN\\values-mn-rMN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 112,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 107,
+                    "endOffset": 271
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 107,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 276,
+                    "endColumn": 122,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endColumn": 122,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 99,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 99,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endColumn": 112,
+                    "endOffset": 607
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 112,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 612,
+                    "endColumn": 86,
+                    "endOffset": 694
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 86,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 699,
+                    "endColumn": 105,
+                    "endOffset": 800
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 105,
+                        "endOffset": 1039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 805,
+                    "endColumn": 111,
+                    "endOffset": 912
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1045,
+                        "endColumn": 111,
+                        "endOffset": 1152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 917,
+                    "endColumn": 81,
+                    "endOffset": 994
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1158,
+                        "endColumn": 81,
+                        "endOffset": 1235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 999,
+                    "endColumn": 108,
+                    "endOffset": 1103
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1241,
+                        "endColumn": 108,
+                        "endOffset": 1345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1108,
+                    "endColumn": 103,
+                    "endOffset": 1207
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1351,
+                        "endColumn": 103,
+                        "endOffset": 1450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1212,
+                    "endColumn": 96,
+                    "endOffset": 1304
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1456,
+                        "endColumn": 96,
+                        "endOffset": 1548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1309,
+                    "endColumn": 107,
+                    "endOffset": 1412
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1554,
+                        "endColumn": 107,
+                        "endOffset": 1657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1417,
+                    "endColumn": 100,
+                    "endOffset": 1513
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1663,
+                        "endColumn": 100,
+                        "endOffset": 1759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1518,
+                    "endColumn": 102,
+                    "endOffset": 1616
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1765,
+                        "endColumn": 102,
+                        "endOffset": 1863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1621,
+                    "endColumn": 121,
+                    "endOffset": 1738
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1869,
+                        "endColumn": 121,
+                        "endOffset": 1986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1743,
+                    "endColumn": 96,
+                    "endOffset": 1835
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1992,
+                        "endColumn": 96,
+                        "endOffset": 2084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1840,
+                    "endColumn": 100,
+                    "endOffset": 1936
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2090,
+                        "endColumn": 100,
+                        "endOffset": 2186
                     }
                 }
             }

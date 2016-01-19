@@ -25,78 +25,65 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/roomHeaderLabelTextView"
         android:layout_marginLeft="10dp"
+        android:layout_marginRight="1dp"
         android:layout_marginTop="20dp"
-        android:layout_toLeftOf="@+id/deleteRoomRippleLayout"
+        android:layout_toLeftOf="@+id/deleteImageView"
         android:background="@color/grey"
         android:gravity="center"
-        android:padding="8dp"
+        android:padding="4dp"
         android:textSize="18dp"
         android:textStyle="bold"></com.rey.material.widget.Spinner>
 
-    <com.gc.materialdesign.views.LayoutRipple
-        android:id="@+id/deleteRoomRippleLayout"
+
+    <ImageView
+        android:id="@+id/deleteImageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignBottom="@+id/roomSpinner"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/roomSpinner"
-        android:layout_below="@+id/roomHeaderLabelTextView"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/grey">
+        android:layout_marginRight="10dp"
+        android:background="@color/grey"
+        android:padding="5dp"
+        android:src="@drawable/black_delete_icon" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/black_delete_icon" />
-    </com.gc.materialdesign.views.LayoutRipple>
-
-
-    <RelativeLayout
-        android:id="@+id/macContainer"
+    <TextView
+        android:id="@+id/macAddressTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/roomSpinner"
+        android:layout_centerVertical="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="2dp"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/macAddressTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/btConnectedRippleLayout"
-            android:layout_alignTop="@+id/btConnectedRippleLayout"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/btConnectedRippleLayout"
-            android:background="@color/grey"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="MAC address" />
+        android:layout_toLeftOf="@+id/btConnectedImageView"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="9dp"
+        android:text="MAC address"
+        android:textSize="17dp" />
 
 
-        <com.gc.materialdesign.views.LayoutRipple
-            android:id="@+id/btConnectedRippleLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:background="@color/redd">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/toolbar_btn_connect" />
-        </com.gc.materialdesign.views.LayoutRipple>
-    </RelativeLayout>
+    <ImageView
+        android:id="@+id/btConnectedImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/macAddressTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/macAddressTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@color/redd"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/toolbar_btn_connect" />
 
     <ProgressBar
         android:id="@+id/loadingProgressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/macContainer"
+        android:layout_below="@+id/btConnectedImageView"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:indeterminateOnly="true"

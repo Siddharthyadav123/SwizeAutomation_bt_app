@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.svizeautomation.app.R;
+import com.svizeautomation.app.model.LocalModel;
 
 /**
  * Created by sid on 15/01/2016.
@@ -70,6 +71,7 @@ public class PasswordActivity extends Activity {
 
     @Override
     public void onBackPressed() {
+        LocalModel.getInstance().hideKeyboard(this);
         if (correctPwd)
             setResult(Activity.RESULT_OK);
         else

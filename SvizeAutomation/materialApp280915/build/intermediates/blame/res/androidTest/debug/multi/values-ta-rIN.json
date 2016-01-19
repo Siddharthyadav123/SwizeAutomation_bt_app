@@ -1,352 +1,5 @@
 [
     {
-        "outputFile": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ta-rIN\\values-ta-rIN.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 113,
-                    "endOffset": 164
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 288,
-                        "endColumn": 113,
-                        "endOffset": 397
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 169,
-                    "endColumn": 107,
-                    "endOffset": 272
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 403,
-                        "endColumn": 107,
-                        "endOffset": 506
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 277,
-                    "endColumn": 122,
-                    "endOffset": 395
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 512,
-                        "endColumn": 122,
-                        "endOffset": 630
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 400,
-                    "endColumn": 104,
-                    "endOffset": 500
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 636,
-                        "endColumn": 104,
-                        "endOffset": 736
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 505,
-                    "endColumn": 114,
-                    "endOffset": 615
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 742,
-                        "endColumn": 114,
-                        "endOffset": 852
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 620,
-                    "endColumn": 88,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 858,
-                        "endColumn": 88,
-                        "endOffset": 942
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 106,
-                    "endOffset": 811
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 948,
-                        "endColumn": 106,
-                        "endOffset": 1050
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 816,
-                    "endColumn": 125,
-                    "endOffset": 937
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1056,
-                        "endColumn": 125,
-                        "endOffset": 1177
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 942,
-                    "endColumn": 81,
-                    "endOffset": 1019
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1183,
-                        "endColumn": 81,
-                        "endOffset": 1260
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1024,
-                    "endColumn": 101,
-                    "endOffset": 1121
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1266,
-                        "endColumn": 101,
-                        "endOffset": 1363
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1126,
-                    "endColumn": 103,
-                    "endOffset": 1225
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1369,
-                        "endColumn": 103,
-                        "endOffset": 1468
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1230,
-                    "endColumn": 96,
-                    "endOffset": 1322
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1474,
-                        "endColumn": 96,
-                        "endOffset": 1566
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1327,
-                    "endColumn": 109,
-                    "endOffset": 1432
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1572,
-                        "endColumn": 109,
-                        "endOffset": 1677
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1437,
-                    "endColumn": 101,
-                    "endOffset": 1534
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1683,
-                        "endColumn": 101,
-                        "endOffset": 1780
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1539,
-                    "endColumn": 106,
-                    "endOffset": 1641
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1786,
-                        "endColumn": 106,
-                        "endOffset": 1888
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1646,
-                    "endColumn": 118,
-                    "endOffset": 1760
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1894,
-                        "endColumn": 118,
-                        "endOffset": 2008
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1765,
-                    "endColumn": 99,
-                    "endOffset": 1860
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2014,
-                        "endColumn": 99,
-                        "endOffset": 2109
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1865,
-                    "endColumn": 100,
-                    "endOffset": 1961
-                },
-                "from": {
-                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2115,
-                        "endColumn": 100,
-                        "endOffset": 2211
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "E:\\git\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ta-rIN\\values-ta-rIN.xml",
         "map": [
             {
@@ -688,6 +341,353 @@
                         "startOffset": 2094,
                         "endColumn": 100,
                         "endOffset": 2190
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-ta-rIN\\values-ta-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 113,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 113,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 107,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 107,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 122,
+                    "endOffset": 395
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 122,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 400,
+                    "endColumn": 104,
+                    "endOffset": 500
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 104,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 505,
+                    "endColumn": 114,
+                    "endOffset": 615
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 742,
+                        "endColumn": 114,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 620,
+                    "endColumn": 88,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 88,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 106,
+                    "endOffset": 811
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 948,
+                        "endColumn": 106,
+                        "endOffset": 1050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 816,
+                    "endColumn": 125,
+                    "endOffset": 937
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1056,
+                        "endColumn": 125,
+                        "endOffset": 1177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 942,
+                    "endColumn": 81,
+                    "endOffset": 1019
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1183,
+                        "endColumn": 81,
+                        "endOffset": 1260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1024,
+                    "endColumn": 101,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1266,
+                        "endColumn": 101,
+                        "endOffset": 1363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endColumn": 103,
+                    "endOffset": 1225
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1369,
+                        "endColumn": 103,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1230,
+                    "endColumn": 96,
+                    "endOffset": 1322
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1474,
+                        "endColumn": 96,
+                        "endOffset": 1566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1327,
+                    "endColumn": 109,
+                    "endOffset": 1432
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1572,
+                        "endColumn": 109,
+                        "endOffset": 1677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1437,
+                    "endColumn": 101,
+                    "endOffset": 1534
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1683,
+                        "endColumn": 101,
+                        "endOffset": 1780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1539,
+                    "endColumn": 106,
+                    "endOffset": 1641
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1786,
+                        "endColumn": 106,
+                        "endOffset": 1888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1646,
+                    "endColumn": 118,
+                    "endOffset": 1760
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1894,
+                        "endColumn": 118,
+                        "endOffset": 2008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1765,
+                    "endColumn": 99,
+                    "endOffset": 1860
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2014,
+                        "endColumn": 99,
+                        "endOffset": 2109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1865,
+                    "endColumn": 100,
+                    "endOffset": 1961
+                },
+                "from": {
+                    "file": "D:\\Github\\SwizeAutomation_bt_app\\SvizeAutomation\\materialApp280915\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2115,
+                        "endColumn": 100,
+                        "endOffset": 2211
                     }
                 }
             }

@@ -58,7 +58,7 @@ public class RoomSpinnerAdatper extends ArrayAdapter {
         View row = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_item, parent,
                 false);
         TextView text = (TextView) row.findViewById(android.R.id.text1);
-        text.setPadding(10, 10, 10, 10);
+        text.setPadding(20, 20, 20, 20);
         text.setText(roomsList.get(position).getName());
         return row;
     }
@@ -69,7 +69,7 @@ public class RoomSpinnerAdatper extends ArrayAdapter {
         View row = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_spinner_item, parent,
                 false);
         TextView text = (TextView) row.findViewById(android.R.id.text1);
-        text.setPadding(10, 10, 10, 10);
+        text.setPadding(20, 20, 20, 20);
         text.setText(roomsList.get(position).getName());
         return row;
     }
