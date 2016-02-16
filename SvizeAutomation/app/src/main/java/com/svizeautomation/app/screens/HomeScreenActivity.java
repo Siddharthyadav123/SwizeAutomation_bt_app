@@ -447,6 +447,9 @@ public class HomeScreenActivity extends AppCompatActivity {
     private void onBtConnectedClick() {
         if (isConnecting) {
             Toast.makeText(HomeScreenActivity.this, "Connection Already in process.", Toast.LENGTH_LONG).show();
+            loadingProgressBar.setVisibility(View.VISIBLE);
+            mDeviceConnector.disconnect();
+            messageHandler = null;
             return;
         }
 
@@ -568,6 +571,8 @@ public class HomeScreenActivity extends AppCompatActivity {
         }
     }
 
+    MessageHandler messageHandler = null;
+
     /**
      * method to connect with the bluetooth adapter using a MAC address
      */
@@ -579,7 +584,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         loadingProgressBar.setVisibility(View.VISIBLE);
         mDeviceConnector.disconnect();
 
-        MessageHandler messageHandler = new MessageHandlerImpl(mHandler);
+        messageHandler = new MessageHandlerImpl(mHandler);
         switch (currentRoom.getBtConnectorType()) {
             case RoomDo.CONNECTOR_TYPE_MOCK:
                 mDeviceConnector = new MockLineByLineConnector(

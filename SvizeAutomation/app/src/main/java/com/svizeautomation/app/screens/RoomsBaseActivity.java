@@ -1,6 +1,7 @@
 package com.svizeautomation.app.screens;
 
 import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,9 +10,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.gc.materialdesign.views.CheckBox;
 import com.gc.materialdesign.views.LayoutRipple;
+import com.svizeautomation.app.BluetoothViewer;
 import com.svizeautomation.app.DeviceListActivity;
 import com.svizeautomation.app.R;
 import com.svizeautomation.app.constants.Constants;
@@ -135,10 +138,13 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
     public abstract void onSaveRoomBtnClick();
 
     protected void startDeviceListActivity() {
-        Intent intent = new Intent(this, DeviceListActivity.class);
-        intent.putExtra(DeviceListActivity.EXTRA_MOCK_DEVICES_ENABLED,
-                true);
-        startActivityForResult(intent, HomeScreenActivity.REQUEST_CONNECT_DEVICE);
+        if (enableBluetooth()) {
+            Intent intent = new Intent(this, DeviceListActivity.class);
+            intent.putExtra(DeviceListActivity.EXTRA_MOCK_DEVICES_ENABLED,
+                    true);
+            startActivityForResult(intent, HomeScreenActivity.REQUEST_CONNECT_DEVICE);
+        }
+
     }
 
     protected void onRemoteDeSeleted() {
@@ -303,11 +309,30 @@ public abstract class RoomsBaseActivity extends AppCompatActivity {
                     }
                 }
                 break;
+
+            case BluetoothViewer.REQUEST_ENABLE_BT: {
+                if (resultCode == Activity.RESULT_OK) {
+                    Toast.makeText(this, "Bluetooth Connected.", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(this, "Bluetooth Connection Denied.", Toast.LENGTH_SHORT).show();
+                }
+            }
+            break;
         }
     }
 
     protected void launchPwdActivity() {
         Intent i = new Intent(this, PasswordActivity.class);
         startActivityForResult(i, Constants.REQUEST_CODE_CREATE_ROOM_PWD);
+    }
+
+    protected boolean enableBluetooth() {
+        BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (!mBluetoothAdapter.isEnabled()) {
+            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enableBtIntent, BluetoothViewer.REQUEST_ENABLE_BT);
+            return false;
+        }
+        return true;
     }
 }

@@ -48,12 +48,6 @@
             android:theme="@style/AppcompactTheme"
             android:windowSoftInputMode="stateHidden"></activity>
 
-        <activity
-            android:name=".screens.RoomSetupActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:windowSoftInputMode="stateHidden"></activity>
-
 
         <activity
             android:name=".DeviceListActivity"

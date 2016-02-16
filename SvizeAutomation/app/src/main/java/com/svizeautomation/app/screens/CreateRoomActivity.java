@@ -24,6 +24,7 @@ public class CreateRoomActivity extends RoomsBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        enableBluetooth();
         LocalModel.getInstance().setCurrentActivity(this);
         setContentView(R.layout.create_room_fragment_layout);
         setToolBar("Create Room");
